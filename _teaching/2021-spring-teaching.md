@@ -12,12 +12,3 @@ Head TA: Responsibilities include teaching weekly precepts, grading, logistics, 
 
 This course focuses on analytical and computational tools for optimization.  Topics include least squares optimization, linear optimization, duality, the simplex method, interior point methods, network flow optimization, and brand-and-bound algorithms.
 
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
