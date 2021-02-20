@@ -1,5 +1,5 @@
 ---
-title: "ORF 455 Energy and Commodities Markets"
+title: "ORF: 455 Energy and Commodities Markets"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2020-fall-teaching

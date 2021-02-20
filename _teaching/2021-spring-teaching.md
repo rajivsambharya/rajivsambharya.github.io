@@ -1,5 +1,5 @@
 ---
-title: "ORF307 "
+title: "ORF307: Optimization"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2021-spring-teaching
