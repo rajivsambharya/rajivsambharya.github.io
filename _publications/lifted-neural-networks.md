@@ -1,7 +1,7 @@
 ---
 title: "Lifted Neural Networks"
 collection: publications
-permalink: /publication/2009-10-01-lifted-neural-networks
+permalink: /publication/lifted-neural-networks
 excerpt: 'This paper is about lifted neural networks'
 date: 2018-05-03
 venue: 'Preprint'
@@ -18,7 +18,7 @@ Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal
       title={Lifted Neural Networks}, 
       author={Armin Askari and Geoffrey Negiar and Rajiv Sambharya and Laurent El Ghaoui},
       year={2018},
-      eprint={1805.01532},s
+      eprint={1805.01532},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
 }
