@@ -16,10 +16,11 @@ author_profile: true
 {% endfor %}
  -->
 
-Lifted Neural Networks
-======
+**Lifted Neural Networks**
+
 A. Askari, G. Negiar, R. Sambharya, L. El Ghaoui
-Arxiv Preprint
+
+Arxiv Preprint, 2018
 
 [Link](https://arxiv.org/pdf/1805.01532.pdf){: .btn .btn--primary}
 [Bibtex](https://dblp.uni-trier.de/rec/journals/corr/abs-1805-01532.html?view=bibtex){: .btn .btn--primary}
