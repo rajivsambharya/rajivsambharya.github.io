@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third year PhD student in the [Operations Research and Financial Engineering](https://orfe.princeton.edu) department at Princeton (started in Fall 2019).  My research focuses on using data-driven techniques to solve mathematical optimization and control problems.  Some specific interests include semidefinite programming, robust optimization, and differentiable optimization.  My advisor is [Bartolomeo Stellato](https://stellato.io).  I did my Undergraduate and Master's degrees at UC Berkeley advised by [Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/).  
+I am a third year PhD student in the [Operations Research and Financial Engineering](https://orfe.princeton.edu) department at Princeton (started in Fall 2019) currently advised by [Bartolomeo Stellato](https://stellato.io).  My research focuses on using data-driven techniques to solve mathematical optimization and control problems.  Some specific interests include semidefinite programming, robust optimization, and differentiable optimization.  I did my Undergraduate and Master's degrees at UC Berkeley advised by [Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/).  
 
 My email is rajivs<span style="display:none">foo</span>@princeton.edu
 
