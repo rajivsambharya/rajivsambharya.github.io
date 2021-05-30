@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Rajiv Sambharya"
   avatar           : "rajiv_halongbay_headshot.jpg"
-  bio              : "PhD student at Princeton in the ORFE department"
+  bio              : "PhD student at Princeton researching data-driven optimization"
   location         : "Location"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=2FZJ820AAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "rajivsambharya"
   google_plus      :
   keybase          :
   instagram        :
