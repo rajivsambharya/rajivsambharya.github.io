@@ -12,6 +12,8 @@ I am a third year PhD student in the [Operations Research and Financial Engineer
 
 My email is rajivs [at] princeton.edu. Here is my [Google scholar](https://scholar.google.com/citations?user=2FZJ820AAAAJ&hl=en) page and my [CV]({{rajivsambharya.github.io}}/files/CV.pdf).
 
+[Button](https://scholar.google.com/citations?user=2FZJ820AAAAJ&hl=en){: .btn .btn--primary}
+
 
 
 
