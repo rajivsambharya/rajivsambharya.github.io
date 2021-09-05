@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-**ORF 522: Optimization**
+**ORF 522: Linear and Nonlinear Optimization**
 Fall 2021
 
 **ORF 307: Optimization**
