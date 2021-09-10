@@ -10,6 +10,11 @@ author_profile: true
 {% endif %}
 
 
+# Working Papers
+**Fast Semidefinite Optimization With Latent Basis Learning**\
+with P. Liang, G. Hall, B. Amos, B. Stellato\
+
+# Preprints
 **Lifted Neural Networks**\
 A. Askari, G. Negiar, R. Sambharya, L. El Ghaoui\
 Arxiv Preprint, 2018\
