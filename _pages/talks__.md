@@ -8,5 +8,6 @@ author_profile: true
 
 
 ## Learning Semidefinite Programs
-INFORMS Annual Meeting
+INFORMS Annual Meeting in Anaheim (hybrid)
+
 October 27 2021
