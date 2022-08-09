@@ -12,5 +12,5 @@ INFORMS Annual Meeting in Anaheim (hybrid)\
 October 27 2021
 
 ## Learning 2 Convexify
-ICCOPT at Lehigh University
+ICCOPT at Lehigh University\
 July 26 2022
