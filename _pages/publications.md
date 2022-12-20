@@ -63,4 +63,10 @@ Arxiv Preprint, 2018\
 }
 </div>
 
+<button class="button">Green</button>
+<button class="button button2">Blue</button>
+<button class="button button3">Red</button>
+<button class="button button4">Gray</button>
+<button class="button button5">Black</button>
+
 
