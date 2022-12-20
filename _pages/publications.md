@@ -26,6 +26,7 @@ author_profile: true
 .button5 {background-color:#EB984E;} /* Orange-brown */
 </style>
 
+![]({{rajivsambharya.github.io}}/images/paper.pdf)
 
 
 {% if author.googlescholar %}
@@ -38,7 +39,9 @@ Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
 Arxiv Preprint, 2022\
 <a href="https://arxiv.org/pdf/2212.08260.pdf">
 <button class="button button2">
-Link
+ <img src="https://ik.imagekit.io/ikmedia/women-dress-2.jpg" 
+     width="20" 
+     height="20" /> Link
 </button>
 </a>
 <a href='javascript:;'
@@ -87,7 +90,7 @@ iterations required to obtain high-quality solutions.
 </pre>
 </div>
 
-![]({{rajivsambharya.github.io}}/images/paper.pdf)
+
 
 **Lifted Neural Networks**\
 Armin Askari, Geoffrey Negiar, Rajiv Sambharya, Laurent El Ghaoui\
