@@ -26,6 +26,14 @@ author_profile: true
 .button5 {background-color: #555555;} /* Black */
 </style>
 
+<button id="myButton" class="float-left submit-button" >Home</button>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "www.nytimes.com";
+    };
+</script>
+
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
