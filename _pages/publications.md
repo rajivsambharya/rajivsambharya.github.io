@@ -35,7 +35,7 @@ author_profile: true
 ## Preprints
 **End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization**\
 Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
-Arxiv Preprint, 2018\
+Arxiv Preprint, 2022\
 <a href="https://arxiv.org/pdf/2212.08260.pdf">
 <button class="button button2">
 Link
@@ -60,17 +60,19 @@ Code
 </a>
 
 <div id="abs_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
-<pre>
-First-order methods are widely used to solve convex quadratic programs (QPs) in
-real-time applications because of their low per-iteration cost. However, they can suffer
-from slow convergence to accurate solutions. In this paper, we present a framework
-which learns an effective warm-start for a popular first-order method in real-time applications, Douglas-Rachford (DR) splitting, across a family of parametric QPs. This framework consists of two modules: a feedforward neural network block, which takes
-as input the parameters of the QP and outputs a warm-start, and a block which performs a fixed number of iterations of DR splitting from this warm-start and outputs a candidate solution. A key feature of our framework is its ability to do end-to-end
+First-order methods are widely used to solve convex quadratic 
+programs (QPs) in real-time applications because of their low
+ per-iteration cost. However, they can suffer from slow convergence 
+ to accurate solutions. In this paper, we present a framework which 
+ learns an effective warm-start for a popular first-order method in 
+ real-time applications, Douglas-Rachford (DR) splitting, across a family
+ of parametric QPs. This framework consists of two modules: a 
+ feedforward neural network block, which takes as input the parameters of the QP and outputs a warm-start, and a block which performs a 
+fixed number of iterations of DR splitting from this warm-start and outputs a candidate solution. A key feature of our framework is its ability to do end-to-end
 learning as we differentiate through the DR iterations. To illustrate the effectiveness
 of our method, we provide generalization bounds (based on Rademacher complexity)
 that improve with the number of training problems and number of iterations simultaneously. We further apply our method to three real-time applications and observe that, by learning good warm-starts, we are able to significantly reduce the number of
 iterations required to obtain high-quality solutions.
-</pre>
 </div>
     
 <div id="bib_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
@@ -107,9 +109,7 @@ Bibtex
 </a>
 
 <div id="abs_lifted_nn" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
-<pre>
 We describe a novel family of models of multi- layer feedforward neural networks in which the activation functions are encoded via penalties in the training problem. Our approach is based on representing a non-decreasing activation function as the argmin of an appropriate convex optimization problem. The new framework allows for algorithms such as block-coordinate descent methods to be applied, in which each step is composed of a simple (no hidden layer) supervised learning problem that is parallelizable across data points and/or layers. Experiments indicate that the pro- posed models provide excellent initial guesses for weights for standard neural networks. In addition, the model provides avenues for interesting extensions, such as robustness against noisy in- puts and optimizing over parameters in activation functions.
-</pre>
 </div>
 
 <div id="bib_lifted_nn" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
