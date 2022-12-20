@@ -59,7 +59,7 @@ Code
 </button>
 </a>
 
-<div id="abs_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
+<div id="abs_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
 <pre>
 First-order methods are widely used to solve convex quadratic programs (QPs) in
 real-time applications because of their low per-iteration cost. However, they can suffer
@@ -73,7 +73,7 @@ iterations required to obtain high-quality solutions.
 </pre>
 </div>
     
-<div id="bib_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #9B59B6" markdown="1">
+<div id="bib_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
 <pre>@misc{sambharya_2022_endtoend,
       title={End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization}, 
       author={Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},
@@ -100,13 +100,13 @@ Bibtex
 </button>
 </a>
 
-<div id="abs_liifted_nn" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
+<div id="abs_liifted_nn" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
 <pre>
 We describe a novel family of models of multi- layer feedforward neural networks in which the activation functions are encoded via penalties in the training problem. Our approach is based on representing a non-decreasing activation function as the argmin of an appropriate convex optimization problem. The new framework allows for algorithms such as block-coordinate descent methods to be applied, in which each step is composed of a simple (no hidden layer) supervised learning problem that is parallelizable across data points and/or layers. Experiments indicate that the pro- posed models provide excellent initial guesses for weights for standard neural networks. In addition, the model provides avenues for interesting extensions, such as robustness against noisy in- puts and optimizing over parameters in activation functions.
 </pre>
 </div>
 
-<div id="bib_lifted_nn" style="text-align: justify; display: none; color: white; background-color: #9B59B6" markdown="1">
+<div id="bib_lifted_nn" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
 <pre>@misc{askari_lifted_nn,
   doi = {10.48550/ARXIV.1805.01532},
   url = {https://arxiv.org/abs/1805.01532},
