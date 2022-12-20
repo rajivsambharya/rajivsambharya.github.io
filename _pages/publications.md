@@ -87,6 +87,8 @@ iterations required to obtain high-quality solutions.
 </pre>
 </div>
 
+![]({{rajivsambharya.github.io}}/images/paper.pdf)
+
 **Lifted Neural Networks**\
 Armin Askari, Geoffrey Negiar, Rajiv Sambharya, Laurent El Ghaoui\
 Arxiv Preprint, 2018\
