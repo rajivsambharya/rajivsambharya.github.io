@@ -20,7 +20,7 @@ author_profile: true
   border-radius: 5px;
 }
 
-.button2 {background-color: #008CBA;} /* Blue */
+.button2 {background-color: #008CBA; onclick='$("#bib_e2e_qp").toggle()';} /* Blue */
 .button3 {background-color: #f44336;} /* Red */ 
 .button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
 .button5 {background-color: #555555;} /* Black */
@@ -45,8 +45,8 @@ Arxiv Preprint, 2018\
 <button class="button button2">
 [<a href='javascript:;'
 	style="color: white"
-    bibtex</a>]
-onclick='$("#bib_e2e_qp").toggle()'>
+    >bibtex</a>]
+onclick='$("#bib_e2e_qp").toggle()'
 </button>
     
 <div id="bib_e2e_qp" style="text-align: justify; display: none" markdown="1">
