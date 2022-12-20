@@ -31,7 +31,7 @@ author_profile: true
 <button class="button button4">Gray</button>
 <button class="button button5">Black</button>
 
-<button class="button button2>
+<button class="button button2">
 [<a href='javascript:;'
     onclick='$("#bib_e2e_qp").toggle()'>bibtex</a>]
 </button>
@@ -52,7 +52,7 @@ Arxiv Preprint, 2018\
 Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
 Arxiv Preprint, 2018\
 [Link](https://arxiv.org/pdf/2212.08260.pdf){: .btn .btn--info}
-<button class="button button2>
+<button class="button button2">
 [<a href='javascript:;'
     onclick='$("#bib_e2e_qp").toggle()'>bibtex</a>]
 </button>
