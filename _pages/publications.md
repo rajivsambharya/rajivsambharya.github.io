@@ -34,6 +34,10 @@ author_profile: true
     };
 </script>
 
+<a href="http://www.stackoverflow.com/">
+    <button>Click me</button>
+</a>
+
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
