@@ -94,13 +94,19 @@ Link
 </button>
 </a>
 <a href='javascript:;'
+onclick='$("#abs_lifted_nn").toggle()'>
+<button class="button button4">
+Abstract
+</button>
+</a>
+<a href='javascript:;'
 onclick='$("#bib_lifted_nn").toggle()'>
 <button class="button button5">
 Bibtex
 </button>
 </a>
 
-<div id="abs_liifted_nn" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
+<div id="abs_lifted_nn" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
 <pre>
 We describe a novel family of models of multi- layer feedforward neural networks in which the activation functions are encoded via penalties in the training problem. Our approach is based on representing a non-decreasing activation function as the argmin of an appropriate convex optimization problem. The new framework allows for algorithms such as block-coordinate descent methods to be applied, in which each step is composed of a simple (no hidden layer) supervised learning problem that is parallelizable across data points and/or layers. Experiments indicate that the pro- posed models provide excellent initial guesses for weights for standard neural networks. In addition, the model provides avenues for interesting extensions, such as robustness against noisy in- puts and optimizing over parameters in activation functions.
 </pre>
