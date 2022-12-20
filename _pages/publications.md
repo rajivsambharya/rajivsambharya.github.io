@@ -38,6 +38,14 @@ author_profile: true
     <button>Click me</button>
 </a>
 
+<a href="http://www.stackoverflow.com/">
+<button class="button button2">
+onclick='$("#bib_e2e_qp").toggle()'
+bibtex
+</button>
+</a>
+
+
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
