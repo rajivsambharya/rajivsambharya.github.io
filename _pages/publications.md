@@ -47,18 +47,47 @@ author_profile: true
 {% endif %}
 
 ## Preprints
+**End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization**\
+Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
+Arxiv Preprint, 2018\
+<a href="https://arxiv.org/pdf/2212.08260.pdf">
+<button class="button button2">
+Link
+</button>
+</a>
+
+<a href='javascript:;'
+onclick='$("#bib_e2e_qp").toggle()'>
+<button class="button button5">
+Bibtex
+</button>
+</a>
+    
+<div id="bib_e2e_qp" style="text-align: justify; display: none" markdown="1">
+<pre>@misc{sambharya_2022_endtoend,
+      title={End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization}, 
+      author={Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},
+      year={2022},
+      eprint={2212.08260},
+      archivePrefix={arXiv},
+      primaryClass={math.OC}
+}
+</pre>
+</div>
+
 **Lifted Neural Networks**\
 Armin Askari, Geoffrey Negiar, Rajiv Sambharya, Laurent El Ghaoui\
 Arxiv Preprint, 2018\
 <a href="https://arxiv.org/pdf/1805.01532.pdf">
 <button class="button button2">
-bibtex
+Link
 </button>
 </a>
+
 <a href='javascript:;'
 onclick='$("#bib_lifted_nn").toggle()'>
 <button class="button button5">
-bibtex
+Bibtex
 </button>
 </a>
 
@@ -75,27 +104,5 @@ bibtex
 }</pre>
 </div>
 
-**End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization**\
-Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
-Arxiv Preprint, 2018\
-[Link](https://arxiv.org/pdf/2212.08260.pdf){: .btn .btn--info}
-<a href='javascript:;'
-onclick='$("#bib_e2e_qp").toggle()'>
-<button class="button button5">
-bibtex
-</button>
-</a>
-    
-<div id="bib_e2e_qp" style="text-align: justify; display: none" markdown="1">
-<pre>@misc{sambharya_2022_endtoend,
-      title={End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization}, 
-      author={Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},
-      year={2022},
-      eprint={2212.08260},
-      archivePrefix={arXiv},
-      primaryClass={math.OC}
-}
-</pre>
-</div>
 
 
