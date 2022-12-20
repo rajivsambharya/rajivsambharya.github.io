@@ -50,6 +50,11 @@ author_profile: true
 **Lifted Neural Networks**\
 Armin Askari, Geoffrey Negiar, Rajiv Sambharya, Laurent El Ghaoui\
 Arxiv Preprint, 2018\
+<a href="https://arxiv.org/pdf/1805.01532.pdf">
+<button class="button button2">
+bibtex
+</button>
+</a>
 <a href='javascript:;'
 onclick='$("#bib_lifted_nn").toggle()'>
 <button class="button button5">
