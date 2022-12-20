@@ -21,24 +21,10 @@ author_profile: true
 }
 
 .button2 {background-color: #008CBA;} /* Blue */
-.button3 {background-color: #f44336;} /* Red */ 
-.button4 {background-color: #9B59B6 ;} /* Purple */ 
+.button4 {background-color: #7B241C;} /* Red */ 
+.button3 {background-color: #9B59B6 ;} /* Purple */ 
 .button5 {background-color:#EB984E;} /* Orange-brown */
 </style>
-
-<button id="myButton" class="float-left submit-button" >Home</button>
-
-<script type="text/javascript">
-    document.getElementById("myButton").onclick = function () {
-        location.href = "www.nytimes.com";
-    };
-</script>
-
-<a href="http://www.stackoverflow.com/">
-    <button>Click me</button>
-</a>
-
-
 
 
 
@@ -58,7 +44,7 @@ Link
 <a href='javascript:;'
 onclick='$("#abs_e2e_qp").toggle()'>
 <button class="button button4">
-Bibtex
+Abstract
 </button>
 </a>
 <a href='javascript:;'
@@ -67,26 +53,27 @@ onclick='$("#bib_e2e_qp").toggle()'>
 Bibtex
 </button>
 </a>
+<a href="https://github.com/stellatogrp/l2ws">
+<button class="button button3">
+Code
+</button>
+</a>
 
 <div id="abs_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
 <pre>
 First-order methods are widely used to solve convex quadratic programs (QPs) in
 real-time applications because of their low per-iteration cost. However, they can suffer
 from slow convergence to accurate solutions. In this paper, we present a framework
-which learns an effective warm-start for a popular first-order method in real-time applications, Douglas-Rachford (DR) splitting, across a family of parametric QPs. This
-framework consists of two modules: a feedforward neural network block, which takes
-as input the parameters of the QP and outputs a warm-start, and a block which performs a fixed number of iterations of DR splitting from this warm-start and outputs
-a candidate solution. A key feature of our framework is its ability to do end-to-end
+which learns an effective warm-start for a popular first-order method in real-time applications, Douglas-Rachford (DR) splitting, across a family of parametric QPs. This framework consists of two modules: a feedforward neural network block, which takes
+as input the parameters of the QP and outputs a warm-start, and a block which performs a fixed number of iterations of DR splitting from this warm-start and outputs a candidate solution. A key feature of our framework is its ability to do end-to-end
 learning as we differentiate through the DR iterations. To illustrate the effectiveness
 of our method, we provide generalization bounds (based on Rademacher complexity)
-that improve with the number of training problems and number of iterations simultaneously. We further apply our method to three real-time applications and observe
-that, by learning good warm-starts, we are able to significantly reduce the number of
+that improve with the number of training problems and number of iterations simultaneously. We further apply our method to three real-time applications and observe that, by learning good warm-starts, we are able to significantly reduce the number of
 iterations required to obtain high-quality solutions.
-}
 </pre>
 </div>
     
-<div id="bib_e2e_qp" style="text-align: justify; display: none; color: white; background-color: ##9B59B6" markdown="1">
+<div id="bib_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #9B59B6" markdown="1">
 <pre>@misc{sambharya_2022_endtoend,
       title={End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization}, 
       author={Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},
@@ -113,7 +100,13 @@ Bibtex
 </button>
 </a>
 
-<div id="bib_lifted_nn" style="text-align: justify; display: none; color: white; background-color: ##9B59B6" markdown="1">
+<div id="abs_liifted_nn" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
+<pre>
+We describe a novel family of models of multi- layer feedforward neural networks in which the activation functions are encoded via penalties in the training problem. Our approach is based on representing a non-decreasing activation function as the argmin of an appropriate convex optimization problem. The new framework allows for algorithms such as block-coordinate descent methods to be applied, in which each step is composed of a simple (no hidden layer) supervised learning problem that is parallelizable across data points and/or layers. Experiments indicate that the pro- posed models provide excellent initial guesses for weights for standard neural networks. In addition, the model provides avenues for interesting extensions, such as robustness against noisy in- puts and optimizing over parameters in activation functions.
+</pre>
+</div>
+
+<div id="bib_lifted_nn" style="text-align: justify; display: none; color: white; background-color: #9B59B6" markdown="1">
 <pre>@misc{askari_lifted_nn,
   doi = {10.48550/ARXIV.1805.01532},
   url = {https://arxiv.org/abs/1805.01532},
