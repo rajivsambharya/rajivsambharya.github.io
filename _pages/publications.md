@@ -23,7 +23,7 @@ author_profile: true
 .button2 {background-color: #008CBA; onclick='$("#bib_e2e_qp").toggle()';} /* Blue */
 .button3 {background-color: #f44336;} /* Red */ 
 .button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
-.button5 {background-color: #555555;} /* Black */
+.button5 {background-color: orange;} /* Orange */
 </style>
 
 <button id="myButton" class="float-left submit-button" >Home</button>
@@ -38,12 +38,7 @@ author_profile: true
     <button>Click me</button>
 </a>
 
-<a href='javascript:;'
-onclick='$("#bib_e2e_qp").toggle()'>
-<button class="button button2">
-bibtex
-</button>
-</a>
+
 
 
 
@@ -55,22 +50,39 @@ bibtex
 **Lifted Neural Networks**\
 Armin Askari, Geoffrey Negiar, Rajiv Sambharya, Laurent El Ghaoui\
 Arxiv Preprint, 2018\
-[Link](https://arxiv.org/pdf/1805.01532.pdf){: .btn .btn--info}
-[Bibtex](https://dblp.uni-trier.de/rec/journals/corr/abs-1805-01532.html?view=bibtex){: .btn .btn--warning}
+<a href='javascript:;'
+onclick='$("#bib_lifted_nn").toggle()'>
+<button class="button button5">
+bibtex
+</button>
+</a>
+
+<div id="bib_lifted_nn" style="text-align: justify; display: none" markdown="1">
+<pre>@misc{askari_lifted_nn,
+  doi = {10.48550/ARXIV.1805.01532},
+  url = {https://arxiv.org/abs/1805.01532},
+  author = {Askari, Armin and Negiar, Geoffrey and Sambharya, Rajiv and Ghaoui, Laurent El},
+  keywords = {Machine Learning (cs.LG), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Lifted Neural Networks},
+  publisher = {arXiv},
+  year = {2018},
+  copyright = {Creative Commons Attribution Share Alike 4.0 International}
+}</pre>
+</div>
 
 **End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization**\
 Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
 Arxiv Preprint, 2018\
 [Link](https://arxiv.org/pdf/2212.08260.pdf){: .btn .btn--info}
-<button class="button button2">
-[<a href='javascript:;'
-	style="color: white"
-    >bibtex</a>]
-onclick='$("#bib_e2e_qp").toggle()'
+<a href='javascript:;'
+onclick='$("#bib_e2e_qp").toggle()'>
+<button class="button button5">
+bibtex
 </button>
+</a>
     
 <div id="bib_e2e_qp" style="text-align: justify; display: none" markdown="1">
-<pre>@misc{sambharya2022endtoend,
+<pre>@misc{sambharya_2022_endtoend,
       title={End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization}, 
       author={Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},
       year={2022},
