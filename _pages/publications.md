@@ -39,9 +39,9 @@ Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
 Arxiv Preprint, 2022\
 <a href="https://arxiv.org/pdf/2212.08260.pdf">
 <button class="button button2">
- <img src="https://ik.imagekit.io/ikmedia/women-dress-2.jpg" 
-     width="20" 
-     height="20" /> Link
+ <img src="{{rajivsambharya.github.io}}/images/paper.pdf" 
+     width="15" 
+     height="15" /> Link
 </button>
 </a>
 <a href='javascript:;'
