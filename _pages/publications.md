@@ -31,6 +31,11 @@ author_profile: true
 <button class="button button4">Gray</button>
 <button class="button button5">Black</button>
 
+<button class="button button2>
+[<a href='javascript:;'
+    onclick='$("#bib_e2e_qp").toggle()'>bibtex</a>]
+</button>
+
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
@@ -49,10 +54,10 @@ Arxiv Preprint, 2018\
 [Link](https://arxiv.org/pdf/2212.08260.pdf){: .btn .btn--info}
 <button class="button button2>
 [<a href='javascript:;'
-    onclick='$("#abs_e2e_qp").toggle()'>bibtex</a>]
+    onclick='$("#bib_e2e_qp").toggle()'>bibtex</a>]
 </button>
     
-<div id="abs_e2e_qp" style="text-align: justify; display: none" markdown="1">
+<div id="bib_e2e_qp" style="text-align: justify; display: none" markdown="1">
 <pre>@misc{sambharya2022endtoend,
       title={End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization}, 
       author={Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},
