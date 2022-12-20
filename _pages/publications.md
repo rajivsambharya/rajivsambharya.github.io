@@ -48,3 +48,6 @@ gradients in control and reinforcement learning as
 they both use fully-amortized models with a
 objective-based loss.
 </div>
+
+</td>
+</tr>
