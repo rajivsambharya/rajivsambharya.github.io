@@ -38,9 +38,9 @@ author_profile: true
     <button>Click me</button>
 </a>
 
-<a href="http://www.stackoverflow.com/">
+<a href='javascript:;'
+onclick='$("#bib_e2e_qp").toggle()'>
 <button class="button button2">
-onclick='$("#bib_e2e_qp").toggle()'
 bibtex
 </button>
 </a>
