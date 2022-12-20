@@ -10,13 +10,14 @@ author_profile: true
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 8px 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .button2 {background-color: #008CBA;} /* Blue */
@@ -24,17 +25,6 @@ author_profile: true
 .button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
 .button5 {background-color: #555555;} /* Black */
 </style>
-
-<button class="button">Green</button>
-<button class="button button2">Blue</button>
-<button class="button button3">Red</button>
-<button class="button button4">Gray</button>
-<button class="button button5">Black</button>
-
-<button class="button button2">
-[<a href='javascript:;'
-    onclick='$("#bib_e2e_qp").toggle()'>bibtex</a>]
-</button>
 
 
 {% if author.googlescholar %}
@@ -54,7 +44,9 @@ Arxiv Preprint, 2018\
 [Link](https://arxiv.org/pdf/2212.08260.pdf){: .btn .btn--info}
 <button class="button button2">
 [<a href='javascript:;'
-    onclick='$("#bib_e2e_qp").toggle()'>bibtex</a>]
+	style="color: white"
+    bibtex</a>]
+onclick='$("#bib_e2e_qp").toggle()'>
 </button>
     
 <div id="bib_e2e_qp" style="text-align: justify; display: none" markdown="1">
@@ -68,11 +60,5 @@ Arxiv Preprint, 2018\
 }
 </pre>
 </div>
-
-<button class="button">Green</button>
-<button class="button button2">Blue</button>
-<button class="button button3">Red</button>
-<button class="button button4">Gray</button>
-<button class="button button5">Black</button>
 
 
