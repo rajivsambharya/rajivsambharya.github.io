@@ -21,15 +21,15 @@ Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
 Arxiv Preprint, 2018\
 [Link](https://arxiv.org/pdf/2212.08260.pdf){: .btn .btn--info}
 [<a href='javascript:;'
-    onclick='$("#abs_e2e_qp").toggle()'>bibtex</a>]
+    onclick='$("#abs_e2e_qp").toggle()'>bibtex style="color:grey</a>]
     
 <div id="abs_e2e_qp" style="text-align: justify; display: none" markdown="1">
 <pre>@misc{sambharya2022endtoend,
       title={End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization}, 
-      author={Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},\n
-      year={2022},\n
-      eprint={2212.08260},\n
-      archivePrefix={arXiv},\n
+      author={Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},
+      year={2022},
+      eprint={2212.08260},
+      archivePrefix={arXiv},
       primaryClass={math.OC}
 }
 </div>
