@@ -66,6 +66,7 @@ Arxiv Preprint, 2018\
       archivePrefix={arXiv},
       primaryClass={math.OC}
 }
+</pre>
 </div>
 
 <button class="button">Green</button>
