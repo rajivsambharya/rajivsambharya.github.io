@@ -20,10 +20,10 @@ author_profile: true
   border-radius: 5px;
 }
 
-.button2 {background-color: #008CBA; onclick='$("#bib_e2e_qp").toggle()';} /* Blue */
+.button2 {background-color: #008CBA;} /* Blue */
 .button3 {background-color: #f44336;} /* Red */ 
-.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
-.button5 {background-color: orange;} /* Orange */
+.button4 {background-color: #9B59B6 ;} /* Purple */ 
+.button5 {background-color:#EB984E;} /* Orange-brown */
 </style>
 
 <button id="myButton" class="float-left submit-button" >Home</button>
@@ -55,15 +55,38 @@ Arxiv Preprint, 2018\
 Link
 </button>
 </a>
-
+<a href='javascript:;'
+onclick='$("#abs_e2e_qp").toggle()'>
+<button class="button button4">
+Bibtex
+</button>
+</a>
 <a href='javascript:;'
 onclick='$("#bib_e2e_qp").toggle()'>
 <button class="button button5">
 Bibtex
 </button>
 </a>
+
+<div id="abs_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
+<pre>
+First-order methods are widely used to solve convex quadratic programs (QPs) in
+real-time applications because of their low per-iteration cost. However, they can suffer
+from slow convergence to accurate solutions. In this paper, we present a framework
+which learns an effective warm-start for a popular first-order method in real-time applications, Douglas-Rachford (DR) splitting, across a family of parametric QPs. This
+framework consists of two modules: a feedforward neural network block, which takes
+as input the parameters of the QP and outputs a warm-start, and a block which performs a fixed number of iterations of DR splitting from this warm-start and outputs
+a candidate solution. A key feature of our framework is its ability to do end-to-end
+learning as we differentiate through the DR iterations. To illustrate the effectiveness
+of our method, we provide generalization bounds (based on Rademacher complexity)
+that improve with the number of training problems and number of iterations simultaneously. We further apply our method to three real-time applications and observe
+that, by learning good warm-starts, we are able to significantly reduce the number of
+iterations required to obtain high-quality solutions.
+}
+</pre>
+</div>
     
-<div id="bib_e2e_qp" style="text-align: justify; display: none" markdown="1">
+<div id="bib_e2e_qp" style="text-align: justify; display: none; color: white; background-color: ##9B59B6" markdown="1">
 <pre>@misc{sambharya_2022_endtoend,
       title={End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization}, 
       author={Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},
@@ -83,7 +106,6 @@ Arxiv Preprint, 2018\
 Link
 </button>
 </a>
-
 <a href='javascript:;'
 onclick='$("#bib_lifted_nn").toggle()'>
 <button class="button button5">
@@ -91,7 +113,7 @@ Bibtex
 </button>
 </a>
 
-<div id="bib_lifted_nn" style="text-align: justify; display: none" markdown="1">
+<div id="bib_lifted_nn" style="text-align: justify; display: none; color: white; background-color: ##9B59B6" markdown="1">
 <pre>@misc{askari_lifted_nn,
   doi = {10.48550/ARXIV.1805.01532},
   url = {https://arxiv.org/abs/1805.01532},
