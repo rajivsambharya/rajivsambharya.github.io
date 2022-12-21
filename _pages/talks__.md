@@ -39,7 +39,7 @@ July 26 2022
 
 ## End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization
 INFORMS Annual Meeting in Indianapolis\
-November 18 2022\
+October 18 2022\
 <a href="{{rajivsambharya.github.io}}/slides/informs22.pdf" download>
   Slides
 </a>
