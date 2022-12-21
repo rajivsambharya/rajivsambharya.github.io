@@ -94,11 +94,12 @@ iterations required to obtain high-quality solutions.
 </pre>
 </div>
 
-<div id="synopsis_e2e_qp" style="text-align: justify; display: none; color: white; background-color: ##58D68D" markdown="1">
+
 <img src="{{rajivsambharya.github.io}}/images/learning_framework_diagram.pdf" 
      alt=""
      width="17" 
      height="17" />
+<div id="synopsis_e2e_qp" style="text-align: justify; display: none; color: white; background-color: ##58D68D" markdown="1">
 </div>
 
 
