@@ -24,6 +24,7 @@ author_profile: true
 .button4 {background-color: #7B241C;} /* Red */ 
 .button3 {background-color: #9B59B6 ;} /* Purple */ 
 .button5 {background-color:#EB984E;} /* Orange-brown */
+.button6 {background-color:#58D68D;} /* Greenn */
 </style>
 
 
@@ -57,6 +58,13 @@ Bibtex
 Code
 </button>
 </a>
+<a href='javascript:;'
+onclick='$("#synopsis_e2e_qp").toggle()'>
+<button class="button button6">
+Synopsis
+</button>
+</a>
+
 
 <div id="abs_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
 First-order methods are widely used to solve convex quadratic 
@@ -86,6 +94,13 @@ iterations required to obtain high-quality solutions.
 </pre>
 </div>
 
+<div id="synopsis_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
+<img src="{{rajivsambharya.github.io}}/images/learning_framework_diagram.pdf" 
+     width="17" 
+     height="17" />
+</div>
+
+
 
 
 **Lifted Neural Networks**\
@@ -93,7 +108,7 @@ Armin Askari, Geoffrey Negiar, Rajiv Sambharya, Laurent El Ghaoui\
 Arxiv Preprint, 2018\
 <a href="https://arxiv.org/pdf/1805.01532.pdf">
 <button class="button button2">
-Link
+Download
 </button>
 </a>
 <a href='javascript:;'
