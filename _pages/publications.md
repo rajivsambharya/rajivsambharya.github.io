@@ -120,7 +120,7 @@ iterations required to obtain high-quality solutions.
 <img src="{{rajivsambharya.github.io}}/images/osc_mass_image.png" />
 Consider a system of many masses and springs where the masses have actuators that we can control. The goal is to control the system so that it tracks a reference trajectory. Specifically, we aim to solve the convex optimization problem,
 
-<img src="{{rajivsambharya.github.io}}/images/osc_mass_prob.pdf" />
+<img src="{{rajivsambharya.github.io}}/images/osc_mass_prob.jpg" />
 
 where the $x_t$'s are the states and the $u_t$'s are the controls.
 
