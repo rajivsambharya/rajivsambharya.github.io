@@ -119,6 +119,7 @@ iterations required to obtain high-quality solutions.
 <div id="synopsis_e2e_qp" style="text-align: justify; display: none; color: black; background-color: white" markdown="1">
 <img src="https://www.do-mpc.com/en/latest/_images/oscillating_masses.png" width="500" 
      height="600" />
+     
 Consider a system of many masses and springs where the masses have actuators that we can control. The goal is to control the system so that it tracks a reference trajectory. Specifically, we aim to solve the convex optimization problem,
 
 <img src="{{rajivsambharya.github.io}}/images/osc_mass_prob.jpg" width="400" 
@@ -130,6 +131,7 @@ In the model predictive control paradigm, we solve this problem for some horizon
 
 <img src="{{rajivsambharya.github.io}}/images/learning_framework_diagram.jpg" width="500" 
      height="600"/>
+     
 Left: standard DR splitting which maps parameter $\theta$ and initialization $z^0$ to an approximate solution $z^k(\theta)$. 
 Right: Proposed learning framework consisting of two modules.
 The first module is the NN block which maps the parameter $\theta$ to a warm-start $z^k_{\mathcal{W}}(\theta)$. 
@@ -140,7 +142,8 @@ We backpropagate from the loss $\ell_{\theta}(z^k_{\mathcal{W}}(\theta))$ throug
 
 <img src="{{rajivsambharya.github.io}}/images/osc_mass_eval.jpg" width="500" 
      height="600"/>
-    \cblock{0}{0}{0} no warm-start \hspace{1mm}
+     
+   $\cblock{0}{0}{0}$ no warm-start \hspace{1mm}
     \cblock{191}{0}{191} nearest neighbor warm-start \hspace{1mm}
     learned warm-start $k=$\{\hspace{-1mm}\cblock{31}{119}{180} $5$
         \cblock{255}{127}{14} $15$
