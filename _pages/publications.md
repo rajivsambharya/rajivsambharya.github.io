@@ -95,14 +95,14 @@ iterations required to obtain high-quality solutions.
 </div>
 
 
-<div id="synopsis_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #58D68D" markdown="1">
+<div id="synopsis_e2e_qp" style="text-align: justify; display: none; color: black; background-color: white" markdown="1">
 <img src="{{rajivsambharya.github.io}}/images/learning_framework_diagram.jpg" />
 Left: standard DR splitting which maps parameter $\theta$ and initialization $z^0$ to an approximate solution $z^k(\theta)$. 
 Right: Proposed learning framework consisting of two modules.
-The first module is the NN block which maps the parameter $\theta$ to a warm-start $\zwh$. 
+The first module is the NN block which maps the parameter $\theta$ to a warm-start $\z^k_{\mathcal{W}}(\theta)$. 
 The weights of the NN, denoted by $\mathcal{W}$, are the only variables we optimize over. 
-The second module runs $k$ iterations of DR splitting (which also depend on $\theta$) starting with the warm-start $\zwh$ and returning a candidate solution~$z^k_{\mathcal{W}}(\theta)$. 
-We backpropagate from the loss $\Lo(z^k_{\mathcal{W}}(\theta))$ through the DR iterates to learn the optimal weights $\mathcal{W}$.
+The second module runs $k$ iterations of DR splitting (which also depend on $\theta$) starting with the warm-start $\z^k_{\mathcal{W}}(\theta)$ and returning a candidate solution~$z^k_{\mathcal{W}}(\theta)$. 
+We backpropagate from the loss $\ell_{\theta}(z^k_{\mathcal{W}}(\theta))$ through the DR iterates to learn the optimal weights $\mathcal{W}$.
 </div>
 
 
