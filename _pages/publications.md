@@ -94,6 +94,8 @@ iterations required to obtain high-quality solutions.
 </pre>
 </div>
 
+<img src="{{rajivsambharya.github.io}}/images/paper.pdf" />
+
 <img src="{{rajivsambharya.github.io}}/images/learning_framework_diagram.pdf" />
 
 <img src="{{rajivsambharya.github.io}}/images/learning_framework_diagram.pdf" 
