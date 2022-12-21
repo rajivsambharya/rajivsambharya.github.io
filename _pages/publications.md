@@ -24,7 +24,7 @@ author_profile: true
 .button4 {background-color: #7B241C;} /* Red */ 
 .button3 {background-color: #9B59B6 ;} /* Purple */ 
 .button5 {background-color:#EB984E;} /* Orange-brown */
-.button6 {background-color:#58D68D;} /* Greenn */
+.button6 {background-color:#58D68D;} /* Green */
 </style>
 
 
@@ -94,8 +94,9 @@ iterations required to obtain high-quality solutions.
 </pre>
 </div>
 
-<div id="synopsis_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
+<div id="synopsis_e2e_qp" style="text-align: justify; display: none; color: white; background-color: ##58D68D" markdown="1">
 <img src="{{rajivsambharya.github.io}}/images/learning_framework_diagram.pdf" 
+     alt=""
      width="17" 
      height="17" />
 </div>
