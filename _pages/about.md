@@ -11,22 +11,22 @@ redirect_from:
 <style>
 a:link {
   color: green;
-  background-color: transparent;
+  background-color: white;
   text-decoration: none;
 }
 a:visited {
   color: pink;
-  background-color: transparent;
+  background-color: white;
   text-decoration: none;
 }
 a:hover {
   color: red;
-  background-color: transparent;
+  background-color: white;
   text-decoration: underline;
 }
 a:active {
   color: yellow;
-  background-color: transparent;
+  background-color: white;
   text-decoration: underline;
 }
 </style>
