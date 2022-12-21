@@ -95,7 +95,7 @@ iterations required to obtain high-quality solutions.
 </div>
 
 
-<div id="synopsis_e2e_qp" style="text-align: justify; display: none; color: white; background-color: ##58D68D" markdown="1">
+<div id="synopsis_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #58D68D" markdown="1">
 <img src="{{rajivsambharya.github.io}}/images/learning_framework_diagram.jpg" />
 Left: standard DR splitting which maps parameter $\theta$ and initialization $z^0$ to an approximate solution $z^k(\theta)$. 
 Right: Proposed learning framework consisting of two modules.
