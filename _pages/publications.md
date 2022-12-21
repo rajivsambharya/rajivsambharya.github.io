@@ -39,26 +39,32 @@ Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
 Arxiv Preprint, 2022\
 <a href="https://arxiv.org/pdf/2212.08260.pdf">
 <button class="button button2">
- <img src="{{rajivsambharya.github.io}}/images/paper.pdf" 
-     width="15" 
-     height="15" /> Link
+ <img src="{{rajivsambharya.github.io}}/images/download.pdf" 
+     width="17" 
+     height="17" /> Download
 </button>
 </a>
 <a href='javascript:;'
 onclick='$("#abs_e2e_qp").toggle()'>
 <button class="button button4">
-Abstract
+<img src="{{rajivsambharya.github.io}}/images/paper.pdf" 
+     width="17" 
+     height="17" /> Abstract
 </button>
 </a>
 <a href='javascript:;'
 onclick='$("#bib_e2e_qp").toggle()'>
 <button class="button button5">
-Bibtex
+<img src="{{rajivsambharya.github.io}}/images/bib.pdf" 
+     width="17" 
+     height="17" /> Bibtex
 </button>
 </a>
 <a href="https://github.com/stellatogrp/l2ws">
 <button class="button button3">
-Code
+<img src="{{rajivsambharya.github.io}}/images/code" 
+     width="17" 
+     height="17" /> Code
 </button>
 </a>
 
