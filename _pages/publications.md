@@ -25,6 +25,27 @@ author_profile: true
 .button3 {background-color: #9B59B6 ;} /* Purple */ 
 .button5 {background-color:#EB984E;} /* Orange-brown */
 .button6 {background-color:#58D68D;} /* Green */
+
+a:link {
+  color: #008CBA;
+  background-color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: #008CBA;
+  background-color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #008CBA;
+  background-color: white;
+  text-decoration: none;
+}
+a:active {
+  color: #008CBA;
+  background-color: white;
+  text-decoration: none;
+}
 </style>
 
 
