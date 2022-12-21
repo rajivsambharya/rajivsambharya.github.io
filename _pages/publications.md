@@ -125,7 +125,7 @@ Consider a system of many masses and springs where the masses have actuators tha
 
 where the $x_t$'s are the states and the $u_t$'s are the controls.
 
-In the model predictive control paradigm, we solve this problem for some horizon length and implement the first control, $u_0$. After this, we resolve the problem where only the initial state parameter, $\theta = x_\{\rm{init}\}$ changes. Since we need to solve this problem many times, we will have an abundance of data to use. Standard optimization techniques don't capitalize on this data. In our work, we learn a good warm-start for Douglas-Rachford splitting from this data.
+In the model predictive control paradigm, we solve this problem for some horizon length and implement the first control, $u_0$. After this, we resolve the problem where only the initial state parameter, $\theta = x_\{\rm{init}\}$ changes. Since we need to solve this problem many times, we will have an abundance of data to use. Standard optimization techniques don't capitalize on this data. In our work, we learn a good warm-start for Douglas-Rachford (DR) splitting from this data.
 
 <img src="{{rajivsambharya.github.io}}/images/learning_framework_diagram.jpg" />
 Left: standard DR splitting which maps parameter $\theta$ and initialization $z^0$ to an approximate solution $z^k(\theta)$. 
@@ -134,14 +134,15 @@ The first module is the NN block which maps the parameter $\theta$ to a warm-sta
 The weights of the NN, denoted by $\mathcal{W}$, are the only variables we optimize over. 
 The second module runs $k$ iterations of DR splitting (which also depend on $\theta$) starting with the warm-start $z^k_{\mathcal{W}}(\theta)$ and returning a candidate solution $z^k_{\mathcal{W}}(\theta)$. 
 We backpropagate from the loss $\ell_{\theta}(z^k_{\mathcal{W}}(\theta))$ through the DR iterates to learn the optimal weights $\mathcal{W}$.
-</div>
 
-<img src="{{rajivsambharya.github.io}}/images/osc_mass_eval_iters.jpg" />
+
+<img src="{{rajivsambharya.github.io}}/images/osc_mass_eval.jpg" width="500" 
+     height="600"/>
 We plot the test fixed point residuals for different warm-starts of DR splitting.
-We train our architecture with $k=5,15,$ and $50$ DR iterations with loss function \eqref{eq:empirical-risk}.
+We train our architecture with $k=5,15,$ and $50$ DR iterations.
 We compare our results against a random initialization (black) and against warm-starting DR splitting with the nearest neighbor from the train set (magenta).
 
-
+</div>
 
 
 **Lifted Neural Networks**\
