@@ -117,6 +117,19 @@ iterations required to obtain high-quality solutions.
 
 
 <div id="synopsis_e2e_qp" style="text-align: justify; display: none; color: black; background-color: white" markdown="1">
+<img src="{{rajivsambharya.github.io}}/images/osc_mass_image.png" />
+Consider a system of many masses and springs where the masses have actuators that we can control. The goal is to control the system so that it tracks a reference trajectory. Specifically, we aim to solve the optimization problem,
+\begin{equation*}
+\begin{array}{ll} 
+\mbox{minimize} & x_{T}^T Q_{T} x_{T} + \sum_{t=1}^{T-1} x_{t}^T Q x_{t} + u_t^T R u_t \\
+\mbox{subject to} & x_{t+1} = A x_t + B u_t \quad t=0, \dots, T-1, \\
+& u_{\textrm{min}} \leq u_t \leq u_{\textrm{max}} \quad t=0, \dots, T-1 \\
+& x_{\textrm{min}} \leq x_t \leq x_{\textrm{max}} \quad t=1, \dots, T,\\
+& x_0 = x_{\rm init},\\
+\end{array}
+\end{equation*}
+where the $x_t$'s are the states and the $u_t$'s are the controls.
+
 <img src="{{rajivsambharya.github.io}}/images/learning_framework_diagram.jpg" />
 Left: standard DR splitting which maps parameter $\theta$ and initialization $z^0$ to an approximate solution $z^k(\theta)$. 
 Right: Proposed learning framework consisting of two modules.
