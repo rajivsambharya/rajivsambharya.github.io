@@ -5,6 +5,29 @@ permalink: /teaching/
 author_profile: true
 ---
 
+<style>
+a:link {
+  color: #008CBA;
+  background-color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: #008CBA;
+  background-color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #008CBA;
+  background-color: white;
+  text-decoration: none;
+}
+a:active {
+  color: #008CBA;
+  background-color: white;
+  text-decoration: none;
+}
+</style>
+
 I received the [Princeton Teaching Award](https://www.princeton.edu/news/2022/05/13/graduate-students-honored-excellence-teaching) in 2021 and am a [McGraw teaching fellow](https://mcgraw.princeton.edu/).
 
 ## ORF 522: Linear and Nonlinear Optimization
