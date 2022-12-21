@@ -10,24 +10,24 @@ redirect_from:
 
 <style>
 a:link {
-  color: green;
+  color: #008CBA;
   background-color: white;
   text-decoration: none;
 }
 a:visited {
-  color: pink;
+  color: #008CBA;
   background-color: white;
   text-decoration: none;
 }
 a:hover {
-  color: red;
+  color: #008CBA;
   background-color: white;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:active {
-  color: yellow;
+  color: #008CBA;
   background-color: white;
-  text-decoration: underline;
+  text-decoration: none;
 }
 </style>
 
