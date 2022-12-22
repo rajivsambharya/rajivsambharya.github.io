@@ -20,6 +20,7 @@
   </div>
 
   enter10
+  
   <div class="author__urls-wrapper">
     enter11
     <button class="btn btn--inverse">Follow</button>
@@ -30,8 +31,9 @@
     {% endif %}
 
     {% if author.googlescholar %}
-      <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a>
     {% endif %}
+    <!--
     <ul class="author__urls social-icons">
       enter13
       {% if author.uri %}
@@ -126,5 +128,6 @@
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
     </ul>
+    -->
   </div>
 </div>
