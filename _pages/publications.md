@@ -151,10 +151,10 @@ We backpropagate from the loss $\ell_{\theta}(z^k_{\mathcal{W}}(\theta))$ throug
      
 <button class="button button10">  </button> no warm-start <button class="button button11">  </button>  nearest neighbor warm-start 
 
-learned warm-start with $k = \{$
+learned warm-start with $k = $ {
 <button class="button button7">  </button> $5$
 <button class="button button8">  </button> $15$
-<button class="button button9">  </button>$50\}$ 
+<button class="button button9">  </button>$50$ }
 
         
 We plot the test fixed point residuals for different warm-starts of DR splitting.
