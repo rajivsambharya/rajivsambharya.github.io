@@ -152,7 +152,6 @@ We backpropagate from the loss $\ell_{\theta}(z^k_{\mathcal{W}}(\theta))$ throug
 <button class="button button10">  </button> no warm-start <button class="button button11">  </button>  nearest neighbor warm-start 
 
 learned warm-start with 
-
 <button class="button button7">  </button> $k=5$ 
 <button class="button button8">  </button>$k=15$ 
 <button class="button button9"> </button>$k=50$ 
