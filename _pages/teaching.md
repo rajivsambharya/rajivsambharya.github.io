@@ -28,7 +28,7 @@ a:active {
 }
 </style>
 
-I received the [Princeton Teaching Award](https://www.princeton.edu/news/2022/05/13/graduate-students-honored-excellence-teaching) in 2021 and am a [McGraw teaching fellow](https://mcgraw.princeton.edu/).
+I received the [Princeton Teaching Award](https://www.princeton.edu/news/2022/05/13/graduate-students-honored-excellence-teaching) in 2021 and am a [McGraw Teaching Fellow](https://mcgraw.princeton.edu/).
 
 ## ORF 522: Linear and Nonlinear Optimization
 Fall 2021 TA
