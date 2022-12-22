@@ -59,16 +59,7 @@ I am a fourth year PhD student in the [Operations Research and Financial Enginee
 
 My email is rajivs<span style="display:none">foo</span>@princeton.edu.
 
-<a href="https://scholar.google.com/citations?user=2FZJ820AAAAJ&hl=en">
-<button class="button button6">
-Google Scholar
-</button>
-</a>
-<a href="https://github.com/rajivsambharya">
-<button class="button button5">
-Google Scholar
-</button>
-</a>
+
 <a href="{{rajivsambharya.github.io}}/files/CV.pdf">
 <button class="button button4">
 CV
