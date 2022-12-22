@@ -19,9 +19,13 @@
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
+  enter10
   <div class="author__urls-wrapper">
+    enter11
     <button class="btn btn--inverse">Follow</button>
+    enter12
     <ul class="author__urls social-icons">
+      enter13
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
