@@ -24,6 +24,9 @@
     enter11
     <button class="btn btn--inverse">Follow</button>
     enter12
+    github
+    {% if author.github %}
+      <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="false"></i> Github</a></li>
     <ul class="author__urls social-icons">
       enter13
       {% if author.uri %}
