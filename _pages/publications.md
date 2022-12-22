@@ -133,7 +133,7 @@ Consider a system of many masses and springs where the masses have actuators tha
 
 where the $x_t$'s are the states and the $u_t$'s are the controls.
 
-In the model predictive control paradigm, we solve this problem for some horizon length and implement the first control, $u_0$. After this, we resolve the problem where only the initial state parameter, $\theta = x_\{\rm{init}\}$ changes. Since we need to solve this problem many times, we will have an abundance of data to use. Standard optimization techniques don't capitalize on this data. In our work, we learn a good warm-start for Douglas-Rachford (DR) splitting from this data.
+In the model predictive control paradigm, we solve this problem for some horizon length and implement the first control, $u_0$. After this, we resolve the problem where only the initial state parameter, $\theta = x_\{\rm{init}\}$, changes. Since we need to solve this problem many times, we will have an abundance of data to use. Standard optimization techniques don't capitalize on this data. In our work, we learn a good warm-start for Douglas-Rachford (DR) splitting from this data.
 
 <img src="{{rajivsambharya.github.io}}/images/learning_framework_diagram.jpg" width="500" 
      height="600"/>
