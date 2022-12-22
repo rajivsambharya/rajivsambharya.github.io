@@ -18,14 +18,10 @@
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
-
-  enter10
   
   <div class="author__urls-wrapper">
     enter11
     <button class="btn btn--inverse">Follow</button>
-    enter12
-    github
     {% if author.github %}
       <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="false"></i> Github</a>
     {% endif %}
