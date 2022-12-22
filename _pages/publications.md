@@ -150,10 +150,14 @@ We backpropagate from the loss $\ell_{\theta}(z^k_{\mathcal{W}}(\theta))$ throug
      height="600"/>
      
 <button class="button button10">  </button> no warm-start
+
 <button class="button button11">  </button>  nearest neighbor warm-start 
-<button class="button button7">  </button>
-<button class="button button8">  </button>
-<button class="button button9">  </button>
+
+<button class="button button7">  </button> learned warm-start with $k=5$
+
+<button class="button button8">  </button> learned warm-start with $k=15$
+
+<button class="button button9">  </button> learned warm-start with $k=50$
         
 We plot the test fixed point residuals for different warm-starts of DR splitting.
 We train our architecture with $k=5,15,$ and $50$ DR iterations.
