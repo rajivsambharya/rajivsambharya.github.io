@@ -29,11 +29,53 @@ a:active {
   background-color: white;
   text-decoration: none;
 }
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button4 {background-color: #7B241C;} /* Red */ 
+.button3 {background-color: #9B59B6 ;} /* Purple */ 
+.button5 {background-color:#EB984E;} /* Orange-brown */
+.button6 {background-color:#58D68D;} /* Green */
+.button7 {background-color:#1F77B4; color:#1F77B4} /* Blue */
+.button8 {background-color:#FF7F0E; color:#FF7F0E} /* Orange */
+.button9 {background-color:#2CA02C; color:#2CA02C} /* Green */
+.button10 {background-color:black; color:black} /* Black */
+.button11 {background-color:#BF00BF; color:#BF00BF} /* Magenta */
 </style>
 
 I am a fourth year PhD student in the [Operations Research and Financial Engineering](https://orfe.princeton.edu) department at Princeton (started in Fall 2019) advised by [Bartolomeo Stellato](https://stellato.io).  My research focuses on using data-driven techniques to solve mathematical optimization and control problems. Specifically, my current work uses machine learning to quickly solve optimization problems that come from the same parametric family. I did my Undergraduate and Master's degrees at UC Berkeley advised by [Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/).  
 
 My email is rajivs<span style="display:none">foo</span>@princeton.edu.
+
+<a href="https://scholar.google.com/citations?user=2FZJ820AAAAJ&hl=en">
+<button class="button button6">
+Google Scholar
+</button>
+</a>
+<a href="https://github.com/rajivsambharya">
+<button class="button button5">
+Google Scholar
+</button>
+</a>
+<a href="{{rajivsambharya.github.io}}/files/CV.pdf">
+<button class="button button4">
+CV
+</button>
+</a>
+
+
 
 [Google Scholar](https://scholar.google.com/citations?user=2FZJ820AAAAJ&hl=en){: .btn .btn--info}
 [Github](https://github.com/rajivsambharya){: .btn .btn--warning}
