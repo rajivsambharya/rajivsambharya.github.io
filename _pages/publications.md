@@ -25,11 +25,11 @@ author_profile: true
 .button3 {background-color: #9B59B6 ;} /* Purple */ 
 .button5 {background-color:#EB984E;} /* Orange-brown */
 .button6 {background-color:#58D68D;} /* Green */
-.button7 {background-color:#1F77B4;} /* Blue */
-.button8 {background-color:#FF7F0E;} /* Orange */
-.button9 {background-color:#2CA02C;} /* Green */
-.button10 {background-color:black;} /* Black */
-.button11 {background-color:#BF00BF;} /* Magenta */
+.button7 {background-color:#1F77B4; color:#1F77B4} /* Blue */
+.button8 {background-color:#FF7F0E; color:#FF7F0E} /* Orange */
+.button9 {background-color:#2CA02C; color:#2CA02C} /* Green */
+.button10 {background-color:black; color:#black} /* Black */
+.button11 {background-color:#BF00BF; color:#BF00BF} /* Magenta */
 
 
 a:link {
@@ -149,12 +149,12 @@ We backpropagate from the loss $\ell_{\theta}(z^k_{\mathcal{W}}(\theta))$ throug
 <img src="{{rajivsambharya.github.io}}/images/osc_mass_eval.jpg" width="500" 
      height="600"/>
      
-<button class="button button10">  </button> no warm-start <button class="button button11">  </button>  nearest neighbor warm-start 
+<button class="button button10"> t </button> no warm-start <button class="button button11"> t </button>  nearest neighbor warm-start 
 
 learned warm-start with $k = $ {
-<button class="button button7">  </button> $5$
-<button class="button button8">  </button> $15$
-<button class="button button9">  </button>$50$ }
+<button class="button button7">  t </button> $5$
+<button class="button button8"> t </button> $15$
+<button class="button button9">  t </button>$50$ }
 
         
 We plot the test fixed point residuals for different warm-starts of DR splitting.
