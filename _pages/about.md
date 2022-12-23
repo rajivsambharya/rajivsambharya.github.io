@@ -61,16 +61,11 @@ My email is rajivs<span style="display:none">foo</span>@princeton.edu.
 
 
 <a href="{{rajivsambharya.github.io}}/files/CV.pdf">
-<button class="button button4">
+<button class="button button2">
 CV
 </button>
 </a>
 
-
-
-[Google Scholar](https://scholar.google.com/citations?user=2FZJ820AAAAJ&hl=en){: .btn .btn--info}
-[Github](https://github.com/rajivsambharya){: .btn .btn--warning}
-[CV]({{rajivsambharya.github.io}}/files/CV.pdf){: .btn .btn--danger}
 
 
 ![]({{rajivsambharya.github.io}}/images/princeton_logo.png)
