@@ -37,6 +37,9 @@ Fall 2021 TA
 Spring 2022 TA\
 Spring 2021 Head TA
 
+## ORF 363: Computing and Optimization for the Physical and Social Sciences
+Spring 2023 TA
+
 ## ORF 387: Networks
 Fall 2022 TA
 

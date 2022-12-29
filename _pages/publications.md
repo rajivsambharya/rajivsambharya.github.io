@@ -140,7 +140,7 @@ In the model predictive control paradigm, we solve this problem for some horizon
      
 Left: standard DR splitting which maps parameter $\theta$ and initialization $z^0$ to an approximate solution $z^k(\theta)$. 
 Right: Proposed learning framework consisting of two modules.
-The first module is the NN block which maps the parameter $\theta$ to a warm-start $z^k_{\mathcal{W}}(\theta)$. 
+The first module is the neural network (NN) block which maps the parameter $\theta$ to a warm-start $z^k_{\mathcal{W}}(\theta)$. 
 The weights of the NN, denoted by $\mathcal{W}$, are the only variables we optimize over. 
 The second module runs $k$ iterations of DR splitting (which also depend on $\theta$) starting with the warm-start $z^k_{\mathcal{W}}(\theta)$ and returning a candidate solution $z^k_{\mathcal{W}}(\theta)$. 
 We backpropagate from the loss $\ell_{\theta}(z^k_{\mathcal{W}}(\theta))$ through the DR iterates to learn the optimal weights $\mathcal{W}$.
@@ -160,6 +160,7 @@ learned warm-start with $k = $ {
 We plot the test fixed point residuals for different warm-starts of DR splitting.
 We train our architecture with $k=5,15,$ and $50$ DR iterations.
 We compare our results against a random initialization (black) and against warm-starting DR splitting with the nearest neighbor from the train set (magenta).
+We combine operator theory and Rademacher complexity theory to provide generalization bounds that depend on both the number of evaluation iterations, $k$ and the number of training problems.
 
 </div>
 
