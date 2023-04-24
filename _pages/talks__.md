@@ -28,14 +28,10 @@ a:active {
 }
 </style>
 
+## End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization
+NYC Operations Day at Columbia University\
+May 5 2023\
 
-## Learning Semidefinite Programs
-INFORMS Annual Meeting in Anaheim (hybrid)\
-October 27 2021
-
-## Learning 2 Convexify
-ICCOPT at Lehigh University\
-July 26 2022
 
 ## End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization
 INFORMS Annual Meeting in Indianapolis\
@@ -43,3 +39,14 @@ October 18 2022\
 <a href="{{rajivsambharya.github.io}}/slides/informs22.pdf" download>
   Slides
 </a>
+
+## Learning 2 Convexify
+ICCOPT at Lehigh University\
+July 26 2022
+
+## Learning Semidefinite Programs
+INFORMS Annual Meeting in Anaheim (hybrid)\
+October 27 2021
+
+
+
