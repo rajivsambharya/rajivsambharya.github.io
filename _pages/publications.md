@@ -65,7 +65,7 @@ a:active {
 
 **End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization**\
 Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
-Proceedings of the 5th Conference on Learning for Dynamics and Control, 2023 (to appear).\
+*Proceedings of the 5th Conference on Learning for Dynamics and Control, 2023 (to appear)*.\
 <a href="https://arxiv.org/pdf/2212.08260.pdf">
 <button class="button button2">
  Download
@@ -170,7 +170,7 @@ We combine operator theory and Rademacher complexity theory to provide generaliz
 ## Preprints
 **Lifted Neural Networks**\
 Armin Askari, Geoffrey Negiar, Rajiv Sambharya, Laurent El Ghaoui\
-Arxiv Preprint, 2018.\
+*Arxiv Preprint, 2018*.\
 <a href="https://arxiv.org/pdf/1805.01532.pdf">
 <button class="button button2">
 Download
