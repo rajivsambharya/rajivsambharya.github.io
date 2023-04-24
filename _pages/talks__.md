@@ -30,17 +30,18 @@ a:active {
 
 ## End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization
 NYC Operations Day at Columbia University\
-Poster
+Poster\
 May 5 2023
 
 
 
 ## End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization
 INFORMS Annual Meeting in Indianapolis\
-October 18 2022\
 <a href="{{rajivsambharya.github.io}}/slides/informs22.pdf" download>
   Slides
-</a>
+</a>\
+October 18 2022
+
 
 ## Learning 2 Convexify
 ICCOPT at Lehigh University\
