@@ -31,13 +31,13 @@ a:active {
 ## End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization
 Learning for Dynamics and Control (L4DC) at the University of Pennsylvania\
 Poster\
-June 15 2023\
+June 15 2023
 
 ---
 
 NYC Operations Day at Columbia University\
 Poster\
-May 5 2023\
+May 5 2023
 
 ---
 
