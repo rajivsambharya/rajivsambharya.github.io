@@ -30,7 +30,9 @@ a:active {
 
 ## End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization
 NYC Operations Day at Columbia University\
-May 5 2023\
+Poster
+May 5 2023
+
 
 
 ## End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization
