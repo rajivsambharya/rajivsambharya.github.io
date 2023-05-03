@@ -36,7 +36,9 @@ June 15 2023
 ---
 
 NYC Operations Day at Columbia University\
-Poster\
+<a href="{{rajivsambharya.github.io}}/slides/l2ws_nyc_ops_website.pdf" download>
+  Poster
+</a>\
 May 5 2023
 
 ---
