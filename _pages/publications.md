@@ -65,8 +65,8 @@ a:active {
 
 **End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization**\
 Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
-*Proceedings of the 5th Conference on Learning for Dynamics and Control, 2023 (to appear)*.\
-<a href="https://arxiv.org/pdf/2212.08260.pdf">
+*Proceedings of the 5th Conference on Learning for Dynamics and Control, 2023*.\
+<a href="https://proceedings.mlr.press/v211/sambharya23a/sambharya23a.pdf">
 <button class="button button2">
  Download
 </button>

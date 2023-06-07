@@ -28,6 +28,19 @@ a:active {
 }
 </style>
 
+## End-to-End Learning to Warm-Start Fixed Point Optimizers
+MOPTA\
+Talk\
+August 16 2023
+
+---
+
+INFORMS Annual Meeting in Phoenix\
+Talk\
+October 16 2023
+
+
+
 ## End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization
 Learning for Dynamics and Control (L4DC) at the University of Pennsylvania\
 Poster\
