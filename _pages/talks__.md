@@ -31,6 +31,9 @@ a:active {
 ## End-to-End Learning to Warm-Start Fixed Point Optimizers
 MOPTA\
 Talk\
+<a href="{{rajivsambharya.github.io}}/slides/mopta2023_v3" download>
+  Poster
+</a>\
 August 16 2023
 
 ---
@@ -44,6 +47,9 @@ October 16 2023
 ## End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization
 Learning for Dynamics and Control (L4DC) at the University of Pennsylvania\
 Poster\
+<a href="{{rajivsambharya.github.io}}/slides/l2ws_l4dc.pdf" download>
+  Poster
+</a>\
 June 15 2023
 
 ---
