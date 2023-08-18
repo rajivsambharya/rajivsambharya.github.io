@@ -34,13 +34,13 @@ Talk\
 <a href="{{rajivsambharya.github.io}}/slides/mopta2023_v3.pdf" download>
   Slides
 </a>\
-August 16 2023
+August 17 2023
 
 ---
 
 INFORMS Annual Meeting in Phoenix\
 Talk\
-October 16 2023
+October 15 2023
 
 
 
