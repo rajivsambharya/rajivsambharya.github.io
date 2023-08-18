@@ -31,8 +31,8 @@ a:active {
 ## End-to-End Learning to Warm-Start Fixed Point Optimizers
 MOPTA\
 Talk\
-<a href="{{rajivsambharya.github.io}}/slides/mopta2023_v3" download>
-  Poster
+<a href="{{rajivsambharya.github.io}}/slides/mopta2023_v3.pdf" download>
+  Slides
 </a>\
 August 16 2023
 
