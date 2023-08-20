@@ -28,6 +28,11 @@ a:active {
 }
 </style>
 
+## Learning to Warm-Start Fixed-Point Optimization Algorithms
+<a href="{{rajivsambharya.github.io}}/animations/rollout_2_flight_learned.gif" download>
+  Slides
+</a>\
+
 I received the [Princeton Teaching Award](https://www.princeton.edu/news/2022/05/13/graduate-students-honored-excellence-teaching) in 2021 and am a [McGraw Teaching Fellow](https://mcgraw.princeton.edu/).
 
 ## ORF 522: Linear and Nonlinear Optimization
