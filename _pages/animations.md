@@ -29,15 +29,15 @@ a:active {
 </style>
 
 ## Learning to Warm-Start Fixed-Point Optimization Algorithms
-<a href="{{rajivsambharya.github.io}}/animations/rollout_2_flight_learned.gif" download>
+<!-- <a href="{{rajivsambharya.github.io}}/animations/rollout_2_flight_learned.gif" download>
   Slides
-</a>\
+</a>\ -->
 
 <!-- ![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_nn.gif){loop=""}
 ![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_ps.gif){loop=""}
 ![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_learned.gif){loop=""} -->
 <figure>
-  <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_learned.gif" alt="Alt Text" loop>
+  <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_learned_endless.gif" alt="Alt Text" loop>
   <figcaption>Your GIF with endless looping</figcaption>
 </figure>
 
