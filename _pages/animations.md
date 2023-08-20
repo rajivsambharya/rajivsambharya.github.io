@@ -45,9 +45,25 @@ a:active {
   Slides
 </a>\ -->
 
-![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_nn_endless.gif)
+<div style="display: flex; justify-content: space-between;">
+  <div style="flex: 1;">
+    <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_nn_endless.gif" alt="Alt Text">
+    <p style="text-align: center;">GIF 1</p>
+  </div>
+  
+  <div style="flex: 1;">
+    <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_ps_endless.gif" alt="Alt Text">
+    <p style="text-align: center;">GIF 2</p>
+  </div>
+  
+  <div style="flex: 1;">
+    <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_learned_endless.gif" alt="Alt Text">
+    <p style="text-align: center;">GIF 3</p>
+  </div>
+</div>
+<!-- ![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_nn_endless.gif)
 ![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_ps_endless.gif)
-![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_learned_endless.gif)
+![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_learned_endless.gif) -->
 <!-- <figure>
   <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_nn_endless.gif" alt="Alt Text" loop>
   <figcaption>Your GIF with endless looping1</figcaption>
