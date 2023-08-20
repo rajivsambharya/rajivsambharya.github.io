@@ -34,7 +34,7 @@ Many applications in robotics and control require real-time solutions of optimiz
 Most optimization techniques don't consider the available data and solve each problem independently.
 We consider the problem of flying a quadcopter to follow a reference trajectory.
 To do so, we use model predictive control, a popular technique which repeatedly solves a new optimization problem.
-To fly a quadcopter, we impose a budget of $5$ fixed-point steps to solve each problem (mimicking a real-time solution requirement).
+We impose a budget of $5$ fixed-point steps to solve each problem (mimicking a real-time solution requirement).
 With our learned warm-start approach, we can solve the quadratic programs more accurately than the other initialization techniques which initialize the quadratic program with the nearest neighbor and previous solution.
 <!-- <a href="{{rajivsambharya.github.io}}/animations/rollout_2_flight_learned.gif" download>
   Slides
