@@ -45,9 +45,9 @@ a:active {
   Slides
 </a>\ -->
 
-<!-- ![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_nn.gif){loop=""}
-![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_ps.gif){loop=""}
-![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_learned.gif){loop=""} -->
+![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_nn_endless.gif)
+![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_ps_endless.gif)
+![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_learned_endless.gif)
 <!-- <figure>
   <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_nn_endless.gif" alt="Alt Text" loop>
   <figcaption>Your GIF with endless looping1</figcaption>
@@ -60,7 +60,7 @@ a:active {
   <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_learned_endless.gif" alt="Alt Text" loop>
   <figcaption>Your GIF with endless looping3</figcaption>
 </figure> -->
-<div class="gif-container">
+<!-- <div class="gif-container">
   <figure>
     <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_nn_endless.gif" alt="Alt Text" loop>
     <figcaption>Your GIF with endless looping1</figcaption>
@@ -75,7 +75,7 @@ a:active {
     <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_learned_endless.gif" alt="Alt Text" loop>
     <figcaption>Your GIF with endless looping3</figcaption>
   </figure>
-</div>
+</div> -->
 
 I received the [Princeton Teaching Award](https://www.princeton.edu/news/2022/05/13/graduate-students-honored-excellence-teaching) in 2021 and am a [McGraw Teaching Fellow](https://mcgraw.princeton.edu/).
 
