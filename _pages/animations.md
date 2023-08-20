@@ -33,7 +33,13 @@ a:active {
   Slides
 </a>\
 
-![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_learned.gif){loop=""}
+<!-- ![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_nn.gif){loop=""}
+![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_ps.gif){loop=""}
+![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_learned.gif){loop=""} -->
+<figure>
+  <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_learned.gif" alt="Alt Text" loop>
+  <figcaption>Your GIF with endless looping</figcaption>
+</figure>
 
 I received the [Princeton Teaching Award](https://www.princeton.edu/news/2022/05/13/graduate-students-honored-excellence-teaching) in 2021 and am a [McGraw Teaching Fellow](https://mcgraw.princeton.edu/).
 
