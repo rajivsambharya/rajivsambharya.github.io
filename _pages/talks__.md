@@ -29,7 +29,7 @@ a:active {
 </style>
 
 ## End-to-End Learning to Warm-Start Fixed Point Optimizers
-MOPTA\
+MOPTA at Lehigh University\
 Talk\
 <a href="{{rajivsambharya.github.io}}/slides/mopta2023_v3.pdf" download>
   Slides
