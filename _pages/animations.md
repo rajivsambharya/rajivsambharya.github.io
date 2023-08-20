@@ -5,6 +5,18 @@ permalink: /animations/
 author_profile: true
 ---
 
+.gif-container {
+  display: flex;
+  justify-content: space-between; /* Adjust alignment as needed */
+  align-items: center; /* Align vertically centered */
+}
+
+.gif-container figure {
+  flex: 1;
+  margin: 0;
+  text-align: center; /* Center contents horizontally */
+}
+
 <style>
 a:link {
   color: #008CBA;
@@ -36,7 +48,7 @@ a:active {
 <!-- ![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_nn.gif){loop=""}
 ![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_ps.gif){loop=""}
 ![Alt Text]({{rajivsambharya.github.io}}/animations/rollout_2_flight_learned.gif){loop=""} -->
-<figure>
+<!-- <figure>
   <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_nn_endless.gif" alt="Alt Text" loop>
   <figcaption>Your GIF with endless looping1</figcaption>
 </figure>
@@ -47,7 +59,23 @@ a:active {
 <figure>
   <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_learned_endless.gif" alt="Alt Text" loop>
   <figcaption>Your GIF with endless looping3</figcaption>
-</figure>
+</figure> -->
+<div class="gif-container">
+  <figure>
+    <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_nn_endless.gif" alt="Alt Text" loop>
+    <figcaption>Your GIF with endless looping1</figcaption>
+  </figure>
+  
+  <figure>
+    <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_ps_endless.gif" alt="Alt Text" loop>
+    <figcaption>Your GIF with endless looping2</figcaption>
+  </figure>
+  
+  <figure>
+    <img src="{{rajivsambharya.github.io}}/animations/rollout_2_flight_learned_endless.gif" alt="Alt Text" loop>
+    <figcaption>Your GIF with endless looping3</figcaption>
+  </figure>
+</div>
 
 I received the [Princeton Teaching Award](https://www.princeton.edu/news/2022/05/13/graduate-students-honored-excellence-teaching) in 2021 and am a [McGraw Teaching Fellow](https://mcgraw.princeton.edu/).
 
