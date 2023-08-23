@@ -31,7 +31,7 @@ a:active {
 
 ## Learning to Warm-Start Fixed-Point Optimization Algorithms
 Many applications in robotics, signal processing, and machine learning require real-time solutions of optimization problems that are very similar in nature.
-Most optimization techniques don't consider the available data and solve each problem independently.
+Most optimization techniques don't consider the available data from seeing similar optimization problems before and solve each problem independently.
 We consider the problem of flying a quadcopter to follow a reference trajectory.
 To do so, we use model predictive control, a popular technique which repeatedly solves new optimization problems.
 We impose a budget of $15$ fixed-point steps to solve each problem (mimicking a real-time solution requirement).
