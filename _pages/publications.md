@@ -168,6 +168,42 @@ We combine operator theory and Rademacher complexity theory to provide generaliz
 </div>
 
 ## Preprints
+**Learning to Warm-Start Fixed-Point Optimization Algorithms**\
+Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
+*Arxiv Preprint, 2018*.\
+<a href="https://arxiv.org/pdf/2309.07835.pdf">
+<button class="button button2">
+Download
+</button>
+</a>
+<a href='javascript:;'
+onclick='$("#abs_l2ws_fp").toggle()'>
+<button class="button button4">
+Abstract
+</button>
+</a>
+<a href='javascript:;'
+onclick='$("#bib_l2ws_fp").toggle()'>
+<button class="button button5">
+Bibtex
+</button>
+</a>
+
+<div id="abs_l2ws_fp" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
+We introduce a machine-learning framework to warm-start fixed-point optimization algorithms. Our architecture consists of a neural network mapping problem parameters to warm starts, followed by a predefined number of fixed-point iterations. We propose two loss functions designed to either minimize the fixed-point residual or the distance to a ground truth solution. In this way, the neural network predicts warm starts with the end-to-end goal of minimizing the downstream loss. An important feature of our architecture is its flexibility, in that it can predict a warm start for fixed-point algorithms run for any number of steps, without being limited to the number of steps it has been trained on. We provide PAC-Bayes generalization bounds on unseen data for common classes of fixed-point operators: contractive, linearly convergent, and averaged. Applying this framework to well-known applications in control, statistics, and signal processing, we observe a significant reduction in the number of iterations and solution time required to solve these problems, through learned warm starts.
+</div>
+
+<div id="bib_l2ws_fp" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
+<pre>@misc{sambharya_l2ws_fp,
+      title={Learning to Warm-Start Fixed-Point Optimization Algorithms}, 
+      author={Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},
+      year={2023},
+      eprint={2309.07835},
+      archivePrefix={arXiv},
+      primaryClass={math.OC}
+}</pre>
+</div>
+
 **Lifted Neural Networks**\
 Armin Askari, Geoffrey Negiar, Rajiv Sambharya, Laurent El Ghaoui\
 *Arxiv Preprint, 2018*.\
