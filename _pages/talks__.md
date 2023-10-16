@@ -35,7 +35,7 @@ Talk\
   Slides
 </a>\
 October 15 2023
-informs2023
+
 
 ---
 
