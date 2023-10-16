@@ -29,19 +29,22 @@ a:active {
 </style>
 
 ## Learning to Warm-Start Fixed-Point Optimization Algorithms
+INFORMS Annual Meeting in Phoenix\
+Talk\
+<a href="{{rajivsambharya.github.io}}/slides/informs2023.pdf" download>
+  Slides
+</a>\
+October 15 2023
+informs2023
+
+---
+
 MOPTA at Lehigh University\
 Talk\
 <a href="{{rajivsambharya.github.io}}/slides/mopta2023_v3.pdf" download>
   Slides
 </a>\
 August 17 2023
-
----
-
-INFORMS Annual Meeting in Phoenix\
-Talk\
-October 15 2023
-
 
 
 ## End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization
