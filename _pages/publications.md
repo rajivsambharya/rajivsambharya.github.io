@@ -170,7 +170,7 @@ We combine operator theory and Rademacher complexity theory to provide generaliz
 ## Preprints
 **Learning to Warm-Start Fixed-Point Optimization Algorithms**\
 Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
-*Arxiv Preprint, 2023 (Submitted)*.\
+*Arxiv Preprint, 2023 (Under review: Journal of Machine Learning Research)*.\
 <a href="https://arxiv.org/pdf/2309.07835.pdf">
 <button class="button button2">
 Download
@@ -247,5 +247,6 @@ We describe a novel family of models of multi- layer feedforward neural networks
 }</pre>
 </div>
 
-
-
+## Working Papers
+**Learning to Optimize Weakly Convex Functions**\
+Rajiv Sambharya, Bartolomeo Stellato\
