@@ -249,4 +249,4 @@ We describe a novel family of models of multi- layer feedforward neural networks
 
 ## Working Papers
 **Learning to Optimize Weakly Convex Functions**\
-Rajiv Sambharya, Bartolomeo Stellato\
+Rajiv Sambharya, Bartolomeo Stellato
