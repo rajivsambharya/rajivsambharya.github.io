@@ -248,7 +248,7 @@ We describe a novel family of models of multi- layer feedforward neural networks
 </div>
 
 ## Working Papers
-**Learning to Optimize Weakly Convex Functions**\
+**Accelerating Non-Convex Optimization via Learned Sequential Convexifications**\
 Rajiv Sambharya, Bartolomeo Stellato
 
 **Learning Algorithm Steps for Fast Convex Optimization**\
