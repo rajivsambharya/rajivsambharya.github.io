@@ -248,6 +248,9 @@ We describe a novel family of models of multi- layer feedforward neural networks
 </div>
 
 ## Working Papers
+**Non-vacuous Generalization Guarantees for Learned Optimizers (coming February 2024)**\
+Rajiv Sambharya, Bartolomeo Stellato
+
 **Accelerating Non-Convex Optimization via Learned Sequential Convexifications**\
 Rajiv Sambharya, Bartolomeo Stellato
 
