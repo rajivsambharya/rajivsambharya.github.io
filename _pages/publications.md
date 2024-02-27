@@ -61,7 +61,6 @@ a:active {
 
 ## Journal Articles
 
-## Preprints
 **Learning to Warm-Start Fixed-Point Optimization Algorithms**\
 Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
 *Arxiv Preprint, 2023 (accepted: Journal of Machine Learning Research)*.\
@@ -211,6 +210,7 @@ We combine operator theory and Rademacher complexity theory to provide generaliz
 
 </div>
 
+## Preprints
 
 **Lifted Neural Networks**\
 Armin Askari, Geoffrey Negiar, Rajiv Sambharya, Laurent El Ghaoui\
