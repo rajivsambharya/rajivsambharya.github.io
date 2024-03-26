@@ -28,6 +28,45 @@ a:active {
 }
 </style>
 
+
+## Data-Driven Performance Guarantees for Classical and Learned Optimizers
+INFORMS Optimization Society at Rice University\
+Talk\
+<a href="{{rajivsambharya.github.io}}/slides/ios_2024.pdf" download>
+  Slides
+</a>\
+March 24 2024
+
+
+---
+
+CISS at Princeton University\
+Talk\
+<a href="{{rajivsambharya.github.io}}/slides/ciss_2024.pdf" download>
+  Slides
+</a>\
+March 15 2024
+
+
+## Learning to Accelerate Optimizers with Guarantees
+[REALM group](https://aeroastro.mit.edu/realm//) at MIT\
+Talk\
+<a href="{{rajivsambharya.github.io}}/slides/mit2024realm.pdf" download>
+  Slides
+</a>\
+March 8 2024
+
+
+---
+
+[Computational Robotics group](https://computationalrobotics.seas.harvard.edu/) at Harvard University\
+Talk\
+<a href="{{rajivsambharya.github.io}}/slides/harvard2024comp_robotics.pdf" download>
+  Slides
+</a>\
+March 7 2024
+
+
 ## Learning to Warm-Start Fixed-Point Optimization Algorithms
 INFORMS Annual Meeting in Phoenix\
 Talk\
