@@ -73,7 +73,7 @@ Talk\
 <a href="{{rajivsambharya.github.io}}/slides/yale2023.pdf" download>
   Slides
 </a>\
-March 7 2024
+December 13 2023
 
 INFORMS Annual Meeting in Phoenix\
 Talk\
