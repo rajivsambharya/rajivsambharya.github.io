@@ -68,6 +68,13 @@ March 7 2024
 
 
 ## Learning to Warm-Start Fixed-Point Optimization Algorithms
+[Intelligent Autonomy Lab](https://ialab.yale.edu/) at Yale University\
+Talk\
+<a href="{{rajivsambharya.github.io}}/slides/yale2023.pdf" download>
+  Slides
+</a>\
+March 7 2024
+
 INFORMS Annual Meeting in Phoenix\
 Talk\
 <a href="{{rajivsambharya.github.io}}/slides/informs2023.pdf" download>
