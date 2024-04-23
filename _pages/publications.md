@@ -131,12 +131,7 @@ Bibtex
 Code
 </button>
 </a>
-<a href='javascript:;'
-onclick='$("#synopsis_e2e_qp").toggle()'>
-<button class="button button6">
-Synopsis
-</button>
-</a>
+
 
 
 <div id="abs_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
@@ -231,10 +226,18 @@ onclick='$("#bib_data_driven_guarantees").toggle()'>
 Bibtex
 </button>
 </a>
-<a id="abs_data_driven_guarantees" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
-We introduce a data-driven approach to analyze the performance of continuous optimization algorithms using generalization guarantees from statistical learning theory. We study classical and learned optimizers to solve families of parametric optimization problems. We build generalization guarantees for classical optimizers, using a sample convergence bound, and for learned optimizers, using the Probably Approximately Correct (PAC)-Bayes framework. To train learned optimizers, we use a gradient-based algorithm to directly minimize the PAC-Bayes upper bound. Numerical experiments in signal processing, control, and meta-learning showcase the ability of our framework to provide strong generalization guarantees for both classical and learned optimizers given a fixed budget of iterations. For classical optimizers, our bounds are much tighter than those that worst-case guarantees provide. For learned optimizers, our bounds outperform the empirical outcomes observed in their non-learned counterparts.
+<a href="https://github.com/stellatogrp/dataDrivenOptimizerGuarantees">
+<button class="button button3">
+Code
+</button>
 </a>
-<a id="bib_data_driven_guarantees" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
+
+
+<div id="abs_data_driven_guarantees" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
+We introduce a data-driven approach to analyze the performance of continuous optimization algorithms using generalization guarantees from statistical learning theory. We study classical and learned optimizers to solve families of parametric optimization problems. We build generalization guarantees for classical optimizers, using a sample convergence bound, and for learned optimizers, using the Probably Approximately Correct (PAC)-Bayes framework. To train learned optimizers, we use a gradient-based algorithm to directly minimize the PAC-Bayes upper bound. Numerical experiments in signal processing, control, and meta-learning showcase the ability of our framework to provide strong generalization guarantees for both classical and learned optimizers given a fixed budget of iterations. For classical optimizers, our bounds are much tighter than those that worst-case guarantees provide. For learned optimizers, our bounds outperform the empirical outcomes observed in their non-learned counterparts.
+</div>
+
+<div id="bib_data_driven_guarantees" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
 <pre>@misc{sambharya2024datadriven,
       title={Data-Driven Performance Guarantees for Classical and Learned Optimizers}, 
       author={Rajiv Sambharya and Bartolomeo Stellato},
@@ -243,12 +246,9 @@ We introduce a data-driven approach to analyze the performance of continuous opt
       archivePrefix={arXiv},
       primaryClass={math.OC}
 }</pre>
-</a>
-<a href="https://github.com/stellatogrp/dataDrivenOptimizerGuarantees">
-<button class="button button3">
-Code
-</button>
-</a>
+</div>
+
+
 
 **Lifted Neural Networks**\
 Armin Askari, Geoffrey Negiar, Rajiv Sambharya, Laurent El Ghaoui\
