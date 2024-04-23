@@ -211,6 +211,47 @@ We combine operator theory and Rademacher complexity theory to provide generaliz
 </div>
 
 ## Preprints
+**Data-Driven Performance Guarantees for Classical and Learned Optimizers**\
+Rajiv Sambharya, Bartolomeo Stellato\
+*Arxiv Preprint, 2024*.\
+<a href="https://arxiv.org/pdf/2404.13831.pdf">
+<button class="button button2">
+Download
+</button>
+</a>
+<a href='javascript:;'
+onclick='$("#abs_data_driven_guarantees").toggle()'>
+<button class="button button4">
+Abstract
+</button>
+</a>
+<a href='javascript:;'
+onclick='$("#bib_data_driven_guarantees").toggle()'>
+<button class="button button5">
+Bibtex
+</button>
+</a>
+
+<div id="abs_data_driven_guarantees" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
+We introduce a data-driven approach to analyze the performance of continuous optimization algorithms using generalization guarantees from statistical learning theory. We study classical and learned optimizers to solve families of parametric optimization problems. We build generalization guarantees for classical optimizers, using a sample convergence bound, and for learned optimizers, using the Probably Approximately Correct (PAC)-Bayes framework. To train learned optimizers, we use a gradient-based algorithm to directly minimize the PAC-Bayes upper bound. Numerical experiments in signal processing, control, and meta-learning showcase the ability of our framework to provide strong generalization guarantees for both classical and learned optimizers given a fixed budget of iterations. For classical optimizers, our bounds are much tighter than those that worst-case guarantees provide. For learned optimizers, our bounds outperform the empirical outcomes observed in their non-learned counterparts.
+</div>
+
+<div id="bib_data_driven_guarantees" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
+<pre>@misc{sambharya2024datadriven,
+      title={Data-Driven Performance Guarantees for Classical and Learned Optimizers}, 
+      author={Rajiv Sambharya and Bartolomeo Stellato},
+      year={2024},
+      eprint={2404.13831},
+      archivePrefix={arXiv},
+      primaryClass={math.OC}
+}</pre>
+</div>
+
+<a href="https://github.com/stellatogrp/dataDrivenOptimizerGuarantees">
+<button class="button button3">
+Code
+</button>
+</a>
 
 **Lifted Neural Networks**\
 Armin Askari, Geoffrey Negiar, Rajiv Sambharya, Laurent El Ghaoui\
@@ -251,11 +292,5 @@ We describe a novel family of models of multi- layer feedforward neural networks
 </div>
 
 ## Working Papers
-**Data-Driven Performance Guarantees for Classical and Learned Optimizers**\
-Rajiv Sambharya, Bartolomeo Stellato
-
-**Accelerating Non-Convex Optimization via Learned Sequential Convexifications**\
-Rajiv Sambharya, Bartolomeo Stellato
-
 **Learning Algorithm Steps for Fast Convex Optimization**\
 Rajiv Sambharya, Bartolomeo Stellato
