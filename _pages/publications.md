@@ -63,7 +63,7 @@ a:active {
 
 **Learning to Warm-Start Fixed-Point Optimization Algorithms**\
 Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
-*Journal of Machine Learning Research*,2024.\
+*Journal of Machine Learning Research*, 2024.\
 <a href="https://jmlr.org/papers/volume25/23-1174/23-1174.pdf">
 <button class="button button2">
 Download
