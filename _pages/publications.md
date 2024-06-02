@@ -63,8 +63,8 @@ a:active {
 
 **Learning to Warm-Start Fixed-Point Optimization Algorithms**\
 Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
-*Arxiv Preprint, 2023 (to appear: Journal of Machine Learning Research)*.\
-<a href="https://arxiv.org/pdf/2309.07835.pdf">
+*Journal of Machine Learning Research*,2024.\
+<a href="https://jmlr.org/papers/volume25/23-1174/23-1174.pdf">
 <button class="button button2">
 Download
 </button>
@@ -92,19 +92,21 @@ We introduce a machine-learning framework to warm-start fixed-point optimization
 </div>
 
 <div id="bib_l2ws_fp" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
-<pre>@misc{sambharya_l2ws_fp,
-      title={Learning to Warm-Start Fixed-Point Optimization Algorithms}, 
-      author={Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},
-      year={2023},
-      eprint={2309.07835},
-      archivePrefix={arXiv},
-      primaryClass={math.OC}
+<pre>@article{JMLR:v25:23-1174,
+  author  = {Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},
+  title   = {Learning to Warm-Start Fixed-Point Optimization Algorithms},
+  journal = {Journal of Machine Learning Research},
+  year    = {2024},
+  volume  = {25},
+  number  = {166},
+  pages   = {1--46},
+  url     = {http://jmlr.org/papers/v25/23-1174.html}
+}
 }</pre>
 </div>
 
+
 ## Conference Proceedings
-
-
 
 **End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization**\
 Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
