@@ -38,6 +38,13 @@ July 23 2024
 
 
 ---
+Optimization Learning and Control Workshop at Princeton University\
+<a href="{{rajivsambharya.github.io}}/slides/olc_2024.pdf" download>
+  Poster
+</a>\
+June 27 2024
+
+---
 INFORMS Optimization Society at Rice University\
 <a href="{{rajivsambharya.github.io}}/slides/ios_2024.pdf" download>
   Slides
