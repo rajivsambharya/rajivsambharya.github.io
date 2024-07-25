@@ -30,6 +30,14 @@ a:active {
 
 
 ## Data-Driven Performance Guarantees for Classical and Learned Optimizers
+International Symposium on Mathematical Programming in Montreal\
+<a href="{{rajivsambharya.github.io}}/slides/ismp_2024.pdf" download>
+  Slides
+</a>\
+July 23 2024
+
+
+---
 INFORMS Optimization Society at Rice University\
 <a href="{{rajivsambharya.github.io}}/slides/ios_2024.pdf" download>
   Slides
@@ -47,6 +55,14 @@ March 15 2024
 
 
 ## Learning to Accelerate Optimizers with Guarantees
+[Professor George Pappas's group](https://www.georgejpappas.org/group/) at Penn\
+<a href="{{rajivsambharya.github.io}}/slides/penn2024.pdf" download>
+  Slides
+</a>\
+March 8 2024
+
+
+---
 [REALM group](https://aeroastro.mit.edu/realm//) at MIT\
 <a href="{{rajivsambharya.github.io}}/slides/mit2024realm.pdf" download>
   Slides
