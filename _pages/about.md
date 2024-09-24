@@ -55,9 +55,9 @@ a:active {
 .button11 {background-color:#BF00BF; color:#BF00BF} /* Magenta */
 </style>
 
-I am a fifth year PhD student in the [Operations Research and Financial Engineering](https://orfe.princeton.edu) department at Princeton (started in Fall 2019) advised by [Bartolomeo Stellato](https://stellato.io).  My research focuses on using data-driven techniques to solve mathematical optimization and control problems. Specifically, my current work uses machine learning to quickly solve optimization problems that come from the same parametric family. I did my Undergraduate and Master's degrees at UC Berkeley in Electrical Engineering and Computer Science.
+I am a Postdoctoral Research in the [Electrical and Systems Engineering](https://orfe.princeton.edu) hosted by [George Pappas](https://www.georgejpappas.org/). I obtained my PhD from the [Operations Research and Financial Engineering](https://orfe.princeton.edu) department at Princeton (2019-2024) advised by [Bartolomeo Stellato](https://stellato.io).  My research lies at the intersection of optimization, control, and machine learning. I did my Undergraduate and Master's degrees at UC Berkeley in Electrical Engineering and Computer Science (2013-2018) advised by [Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/).
 
-My email is rajivs<span style="display:none">foo</span>@princeton.edu.
+My email is sambhar9<span style="display:none">foo</span>@seas.upenn.edu.
 
 
 <a href="{{rajivsambharya.github.io}}/files/CV.pdf">
