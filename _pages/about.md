@@ -78,8 +78,8 @@ CV
 
 <img src="{{rajivsambharya.github.io}}/images/penn_logo.png" alt="Penn Logo" style="width: 180px; height: 60px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
-<img src="{{rajivsambharya.github.io}}/images/princeton_logo.png" alt="Princeton Logo" style="width: 250px; height: 60px; object-fit: cover; object-position: center; overflow: hidden;"/>
+<img src="{{rajivsambharya.github.io}}/images/princeton_logo.png" alt="Princeton Logo" style="width: 250px; height: 65px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
-<img src="{{rajivsambharya.github.io}}/images/berkeley_logo.png" alt="Berkeley Logo" style="width: 200px; height: 60px; object-fit: cover; object-position: center; overflow: hidden;"/>
+<img src="{{rajivsambharya.github.io}}/images/berkeley_logo.png" alt="Berkeley Logo" style="width: 220px; height: 66px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
 
