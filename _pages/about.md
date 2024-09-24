@@ -66,10 +66,14 @@ CV
 </button>
 </a>
 
+<img src="{{rajivsambharya.github.io}}/images/penn_logo.png" alt="Penn Logo" width="100" height="100"/>
 
-![]({{rajivsambharya.github.io}}/images/penn_logo.png)
+<img src="{{rajivsambharya.github.io}}/images/princeton_logo.png" alt="Princeton Logo" width="100" height="100"/>
+
+<img src="{{rajivsambharya.github.io}}/images/berkeley_logo.png" alt="Berkeley Logo" width="100" height="100"/>
+<!-- ![]({{rajivsambharya.github.io}}/images/penn_logo.png)
 ![]({{rajivsambharya.github.io}}/images/princeton_logo.png)
-![]({{rajivsambharya.github.io}}/images/berkeley_logo.png)
+![]({{rajivsambharya.github.io}}/images/berkeley_logo.png) -->
 
 
 
