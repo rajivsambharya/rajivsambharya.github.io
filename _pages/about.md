@@ -67,14 +67,19 @@ CV
 </a>
 
 <!-- <img src="{{rajivsambharya.github.io}}/images/penn_logo.png" alt="Penn Logo" width="100" height="100"/> -->
-<img src="{{rajivsambharya.github.io}}/images/penn_logo.png" alt="Penn Logo" style="width: 200px; height: 140px; object-fit: cover; overflow: hidden;"/>
+<!-- <img src="{{rajivsambharya.github.io}}/images/penn_logo.png" alt="Penn Logo" style="width: 180px; height: 126px; object-fit: cover; overflow: hidden;"/>
 
 <img src="{{rajivsambharya.github.io}}/images/princeton_logo.png" alt="Princeton Logo" width="200" height="200"/>
 
-<img src="{{rajivsambharya.github.io}}/images/berkeley_logo.png" alt="Berkeley Logo" width="200" height="200"/>
+<img src="{{rajivsambharya.github.io}}/images/berkeley_logo.png" alt="Berkeley Logo" width="200" height="200"/> -->
 <!-- ![]({{rajivsambharya.github.io}}/images/penn_logo.png)
 ![]({{rajivsambharya.github.io}}/images/princeton_logo.png)
 ![]({{rajivsambharya.github.io}}/images/berkeley_logo.png) -->
 
+<img src="{{rajivsambharya.github.io}}/images/penn_logo.png" alt="Penn Logo" style="width: 180px; height: 126px; object-fit: cover; object-position: center; overflow: hidden;"/>
+
+<img src="{{rajivsambharya.github.io}}/images/princeton_logo.png" alt="Penn Logo" style="width: 200px; height: 150px; object-fit: cover; object-position: center; overflow: hidden;"/>
+
+<img src="{{rajivsambharya.github.io}}/images/berkeley_logo.png" alt="Penn Logo" style="width: 200px; height: 150px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
 
