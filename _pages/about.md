@@ -67,9 +67,9 @@ CV
 </a>
 
 
-
+![]({{rajivsambharya.github.io}}/images/penn_logo.png)
 ![]({{rajivsambharya.github.io}}/images/princeton_logo.png)
-
+![]({{rajivsambharya.github.io}}/images/berkeley_logo.png)
 
 
 
