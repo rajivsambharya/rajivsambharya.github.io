@@ -55,7 +55,7 @@ a:active {
 .button11 {background-color:#BF00BF; color:#BF00BF} /* Magenta */
 </style>
 
-I am a Postdoctoral Research in the [Electrical and Systems Engineering](https://orfe.princeton.edu) hosted by [George Pappas](https://www.georgejpappas.org/). I obtained my PhD from the [Operations Research and Financial Engineering](https://orfe.princeton.edu) department at Princeton (2019-2024) advised by [Bartolomeo Stellato](https://stellato.io).  My research lies at the intersection of optimization, control, and machine learning. I did my Undergraduate and Master's degrees at UC Berkeley in Electrical Engineering and Computer Science (2013-2018) advised by [Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/).
+I am a Postdoctoral Research in the [Electrical and Systems Engineering](https://orfe.princeton.edu) department at Penn hosted by [George Pappas](https://www.georgejpappas.org/). I obtained my PhD from the [Operations Research and Financial Engineering](https://orfe.princeton.edu) department at Princeton (2019-2024) advised by [Bartolomeo Stellato](https://stellato.io).  My research lies at the intersection of optimization, control, and machine learning. I did my Undergraduate and Master's degrees at UC Berkeley in Electrical Engineering and Computer Science (2013-2018) advised by [Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/).
 
 My email is sambhar9<span style="display:none">foo</span>@seas.upenn.edu.
 
@@ -78,8 +78,8 @@ CV
 
 <img src="{{rajivsambharya.github.io}}/images/penn_logo.png" alt="Penn Logo" style="width: 180px; height: 60px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
-<img src="{{rajivsambharya.github.io}}/images/princeton_logo.png" alt="Princeton Logo" style="width: 250px; height: 65px; object-fit: cover; object-position: center; overflow: hidden;"/>
+<img src="{{rajivsambharya.github.io}}/images/princeton_logo.png" alt="Princeton Logo" style="width: 255px; height: 67px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
-<img src="{{rajivsambharya.github.io}}/images/berkeley_logo.png" alt="Berkeley Logo" style="width: 220px; height: 66px; object-fit: cover; object-position: center; overflow: hidden;"/>
+<img src="{{rajivsambharya.github.io}}/images/berkeley_logo.png" alt="Berkeley Logo" style="width: 225px; height: 67px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
 
