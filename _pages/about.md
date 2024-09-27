@@ -55,7 +55,8 @@ a:active {
 .button11 {background-color:#BF00BF; color:#BF00BF} /* Magenta */
 </style>
 
-I am a Postdoctoral Researcher in the [Electrical and Systems Engineering](https://orfe.princeton.edu) department at Penn hosted by [George Pappas](https://www.georgejpappas.org/). I obtained my PhD from the [Operations Research and Financial Engineering](https://orfe.princeton.edu) department at Princeton (2019-2024) advised by [Bartolomeo Stellato](https://stellato.io).  My research lies at the intersection of optimization, control, and machine learning. I did my Undergraduate and Master's degrees at UC Berkeley in Electrical Engineering and Computer Science (2013-2018) advised by [Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/).
+I am a Postdoctoral Researcher in the [Electrical and Systems Engineering](https://orfe.princeton.edu) department at Penn hosted by [George Pappas](https://www.georgejpappas.org/). I obtained my PhD from the [Operations Research and Financial Engineering](https://orfe.princeton.edu) department at Princeton (2019-2024) advised by [Bartolomeo Stellato](https://stellato.io).  I did my Undergraduate and Master's degrees at UC Berkeley in Electrical Engineering and Computer Science (2013-2018) advised by [Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/).
+My research lies at the intersection of optimization, control, and machine learning.
 
 My email is sambhar9<span style="display:none">foo</span>@seas.upenn.edu.
 
