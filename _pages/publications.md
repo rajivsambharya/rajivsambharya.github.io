@@ -328,7 +328,3 @@ We describe a novel family of models of multi- layer feedforward neural networks
   copyright = {Creative Commons Attribution Share Alike 4.0 International}
 }</pre>
 </div>
-
-## Working Papers
-**Learning Algorithm Steps for Fast Convex Optimization**\
-Rajiv Sambharya, Bartolomeo Stellato
