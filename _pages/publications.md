@@ -208,6 +208,47 @@ We combine operator theory and Rademacher complexity theory to provide generaliz
 </div>
 
 ## Preprints
+
+**Learning Acceleration Algorithms for Fast Parametric Convex Optimization with Certified Robustness**\
+Rajiv Sambharya, Jinho Bok, Nikolai Matni, George Pappas\
+*Arxiv Preprint, 2025*.\
+<a href="https://arxiv.org/pdf/2507.16264">
+<button class="button button2">
+Download
+</button>
+</a>
+<a href='javascript:;'
+onclick='$("#abs_lah").toggle()'>
+<button class="button button4">
+Abstract
+</button>
+</a>
+<a href='javascript:;'
+onclick='$("#bib_lah").toggle()'>
+<button class="button button5">
+Bibtex
+</button>
+</a>
+<a href="https://github.com/stellatogrp/dataDrivenOptimizerGuarantees">
+<button class="button button3">
+Code
+</button>
+</a>
+
+
+<div id="abs_lah" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
+We develop a machine-learning framework to learn hyperparameter sequences for accelerated first-order methods (e.g., the step size and momentum sequences in accelerated gradient descent) to quickly solve parametric convex optimization problems with certified robustness. We obtain a strong form of robustness guarantee -- certification of worst-case performance over all parameters within a set after a given number of iterations -- through regularization-based training. The regularization term is derived from the performance estimation problem (PEP) framework based on semidefinite programming, in which the hyperparameters appear as problem data. We show how to use gradient-based training to learn the hyperparameters for several first-order methods: accelerated versions of gradient descent, proximal gradient descent, and alternating direction method of multipliers. Through various numerical examples from signal processing, control, and statistics, we demonstrate that the quality of the solution can be dramatically improved within a budget of iterations, while also maintaining strong robustness guarantees. Notably, our approach is highly data-efficient in that we only use ten training instances in all of the numerical examples.
+</div>
+
+<div id="bib_lah" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
+<pre>@article{sambharya2024lah,
+  title={Learning Acceleration Algorithms for Fast Parametric Convex Optimization with Certified Robustness},
+  author={Sambharya, Rajiv and Bok, Jinho and Matni, Nikolai and Pappas, George},
+  journal={arXiv preprint arXiv:2507.16264},
+  year={2025}
+}</pre>
+</div>
+
 **Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization**\
 Rajiv Sambharya, Bartolomeo Stellato\
 *Arxiv Preprint, 2024*.\
