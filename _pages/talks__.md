@@ -28,6 +28,12 @@ a:active {
 }
 </style>
 
+## Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization with Certified Robustness
+International Conference on Continuous Optimization at the University of Southern California
+<a href="{{rajivsambharya.github.io}}/slides/iccopt_2025.pdf" download>
+  Slides
+</a>\
+July 24 2025
 
 ## Data-Driven Performance Guarantees for Classical and Learned Optimizers
 International Symposium on Mathematical Programming in Montreal\
@@ -134,7 +140,7 @@ October 18 2022
 
 
 ## Learning 2 Convexify
-ICCOPT at Lehigh University\
+International Conference on Continuous Optimization at Lehigh University\
 July 26 2022
 
 ## Learning Semidefinite Programs
