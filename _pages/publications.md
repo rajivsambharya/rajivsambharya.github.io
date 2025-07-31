@@ -369,3 +369,29 @@ We describe a novel family of models of multi- layer feedforward neural networks
   copyright = {Creative Commons Attribution Share Alike 4.0 International}
 }</pre>
 </div>
+
+
+## Thesis
+
+**Learning to Accelerate Optimization Algorithms with Guarantees**\
+Rajiv Sambharya\
+<a href="https://dataspace.princeton.edu/handle/88435/dsp01zp38wh03k">
+<button class="button button2">
+Download
+</button>
+</a>
+
+<div id="abs_thesis" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
+	In many real-world scenarios, we need to repeatedly solve similar instances of a parametric optimization problem. Since these problems generally lack closed-form solutions, iterative algorithms are needed to solve them. Yet, due to the limited time available to compute solutions, in many applications, we can only afford to run a fixed number of iterations of these algorithms. This thesis focuses on developing methods that blend machine learning and optimization techniques to take advantage of the shared problem structure and solve these problems faster. We put an emphasis on providing guarantees for such methods. The first main chapter presents a machine-learning framework to warm-start fixed-point optimization algorithms. Our architecture consists of a neural network mapping problem parameters to warm starts, followed by a predefined number of fixed-point iterations. We guarantee convergence by construction and provide generalization bounds using Rademacher complexity and Probably Approximately Correct (PAC)-Bayes theory. Applying this framework to well-known applications in a variety of domains using several different fixed-point algorithms, we observe a significant reduction in the time needed to solve these problems. The second main chapter of this thesis presents a framework to learn the hyperparameters of fixed-point optimization algorithms. The learned hyperparameters are shared across all problem instances; they first vary across iterations and then after a predefined number of steps become constant across iterations. We provide convergence guarantees and generalization guarantees to unseen problem instances. We showcase the effectiveness and data-efficiency of our method with many examples across different fixed-point algorithms. The final main chapter introduces a data-driven approach to analyze the performance of continuous optimization algorithms using generalization guarantees from statistical learning theory. We build generalization guarantees for classical optimizers, using a sample convergence bound, and for learned optimizers, using the PAC-Bayes framework. To train learnedoptimizers, we use a gradient-based algorithm to directly minimize the PAC-Bayes upper bound. For classical optimizers, our bounds are much tighter than those that worst-case guarantees provide. For learned optimizers, our bounds outperform the empirical outcomes observed in their non-learned counterparts.
+</div>
+
+
+<div id="bib_thesis" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
+<pre>@article{sambharya2024thesis,
+  title={Learning to Accelerate Optimization Algorithms with Guarantees},
+  author={Sambharya, Rajiv},
+  school={Princeton University},
+  type={phdthesis},
+  year={2024}
+}</pre>
+</div>
