@@ -375,6 +375,7 @@ We describe a novel family of models of multi- layer feedforward neural networks
 
 **Learning to Accelerate Optimization Algorithms with Guarantees**\
 Rajiv Sambharya\
+*Princeton University, 2024*.\
 <a href="https://dataspace.princeton.edu/handle/88435/dsp01zp38wh03k">
 <button class="button button2">
 Download
