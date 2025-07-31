@@ -29,7 +29,7 @@ a:active {
 </style>
 
 ## Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization with Certified Robustness
-International Conference on Continuous Optimization at the University of Southern California
+International Conference on Continuous Optimization at the University of Southern California\
 <a href="{{rajivsambharya.github.io}}/slides/iccopt_2025.pdf" download>
   Slides
 </a>\
