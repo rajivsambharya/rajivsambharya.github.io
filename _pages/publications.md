@@ -165,48 +165,6 @@ iterations required to obtain high-quality solutions.
 </div>
 
 
-<div id="synopsis_e2e_qp" style="text-align: justify; display: none; color: black; background-color: white" markdown="1">
-<img src="https://www.do-mpc.com/en/latest/_images/oscillating_masses.png" width="500" 
-     height="600" />
-     
-Consider a system of many masses and springs where the masses have actuators that we can control. The goal is to control the system so that it tracks a reference trajectory. Specifically, we aim to solve the convex optimization problem,
-
-<img src="{{rajivsambharya.github.io}}/images/osc_mass_prob.jpg" width="400" 
-     height="500"/>
-
-where the $x_t$'s are the states and the $u_t$'s are the controls.
-
-In the model predictive control paradigm, we solve this problem for some horizon length and implement the first control, $u_0$. After this, we resolve the problem where only the initial state parameter, $\theta = x_\{\rm{init}\}$, changes. Since we need to solve this problem many times, we will have an abundance of data to use. Standard optimization techniques don't capitalize on this data. In our work, we learn a good warm-start for Douglas-Rachford (DR) splitting from this data.
-
-<img src="{{rajivsambharya.github.io}}/images/learning_framework_diagram.jpg" width="500" 
-     height="600"/>
-     
-Left: standard DR splitting which maps parameter $\theta$ and initialization $z^0$ to an approximate solution $z^k(\theta)$. 
-Right: Proposed learning framework consisting of two modules.
-The first module is the neural network (NN) block which maps the parameter $\theta$ to a warm-start $z^k_{\mathcal{W}}(\theta)$. 
-The weights of the NN, denoted by $\mathcal{W}$, are the only variables we optimize over. 
-The second module runs $k$ iterations of DR splitting (which also depend on $\theta$) starting with the warm-start $z^k_{\mathcal{W}}(\theta)$ and returning a candidate solution $z^k_{\mathcal{W}}(\theta)$. 
-We backpropagate from the loss $\ell_{\theta}(z^k_{\mathcal{W}}(\theta))$ through the DR iterates to learn the optimal weights $\mathcal{W}$.
-
-
-<img src="{{rajivsambharya.github.io}}/images/osc_mass_eval.jpg" width="500" 
-     height="600"/>
-     
-<button class="button button10"> o </button> no warm-start <button class="button button11"> o </button>  nearest neighbor warm-start 
-
-learned warm-start with $k = $ {
-<button class="button button7">  o </button> $5$
-<button class="button button8"> o </button> $15$
-<button class="button button9">  o </button>$50$ }
-
-        
-We plot the test fixed point residuals for different warm-starts of DR splitting.
-We train our architecture with $k=5,15,$ and $50$ DR iterations.
-We compare our results against a random initialization (black) and against warm-starting DR splitting with the nearest neighbor from the train set (magenta).
-We combine operator theory and Rademacher complexity theory to provide generalization bounds that depend on both the number of evaluation iterations, $k$ and the number of training problems.
-
-</div>
-
 ## Preprints
 
 **Learning Acceleration Algorithms for Fast Parametric Convex Optimization with Certified Robustness**\
