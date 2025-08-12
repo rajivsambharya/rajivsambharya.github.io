@@ -102,7 +102,7 @@ We introduce a machine-learning framework to warm-start fixed-point optimization
   pages   = {1--46},
   url     = {http://jmlr.org/papers/v25/23-1174.html}
 }
-}</pre>
+</pre>
 </div>
 
 
