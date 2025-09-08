@@ -108,7 +108,7 @@ We introduce a machine-learning framework to warm-start fixed-point optimization
 
 **Data-Driven Performance Guarantees for Classical and Learned Optimizers**\
 Rajiv Sambharya, Bartolomeo Stellato\
-*Journal of Machine Learning Research* (forthcoming), 2025.\
+*Journal of Machine Learning Research*, 2025.\
 <a href="https://arxiv.org/pdf/2404.13831.pdf">
 <button class="button button2">
 Download
@@ -139,11 +139,15 @@ We introduce a data-driven approach to analyze the performance of continuous opt
 
 
 <div id="bib_data_driven_guarantees" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
-<pre>@article{sambharya2024data,
-  title={Data-Driven Performance Guarantees for Classical and Learned Optimizers},
-  author={Sambharya, Rajiv and Stellato, Bartolomeo},
-  journal={arXiv preprint arXiv:2404.13831},
-  year={2024}
+<pre>@article{sambharya2025data,
+  author  = {Rajiv Sambharya and Bartolomeo Stellato},
+  title   = {Data-Driven Performance Guarantees for Classical and Learned Optimizers},
+  journal = {Journal of Machine Learning Research},
+  year    = {2025},
+  volume  = {26},
+  number  = {171},
+  pages   = {1--49},
+  url     = {http://jmlr.org/papers/v26/24-0755.html}
 }</pre>
 </div>
 
