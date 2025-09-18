@@ -61,50 +61,6 @@ a:active {
 
 ## Journal Articles
 
-**Learning to Warm-Start Fixed-Point Optimization Algorithms**\
-Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
-*Journal of Machine Learning Research*, 2024.\
-<a href="https://jmlr.org/papers/volume25/23-1174/23-1174.pdf">
-<button class="button button2">
-Download
-</button>
-</a>
-<a href='javascript:;'
-onclick='$("#abs_l2ws_fp").toggle()'>
-<button class="button button4">
-Abstract
-</button>
-</a>
-<a href='javascript:;'
-onclick='$("#bib_l2ws_fp").toggle()'>
-<button class="button button5">
-Bibtex
-</button>
-</a>
-<a href="https://github.com/stellatogrp/l2ws_fixed_point">
-<button class="button button3">
-Code
-</button>
-</a>
-
-<div id="abs_l2ws_fp" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
-We introduce a machine-learning framework to warm-start fixed-point optimization algorithms. Our architecture consists of a neural network mapping problem parameters to warm starts, followed by a predefined number of fixed-point iterations. We propose two loss functions designed to either minimize the fixed-point residual or the distance to a ground truth solution. In this way, the neural network predicts warm starts with the end-to-end goal of minimizing the downstream loss. An important feature of our architecture is its flexibility, in that it can predict a warm start for fixed-point algorithms run for any number of steps, without being limited to the number of steps it has been trained on. We provide PAC-Bayes generalization bounds on unseen data for common classes of fixed-point operators: contractive, linearly convergent, and averaged. Applying this framework to well-known applications in control, statistics, and signal processing, we observe a significant reduction in the number of iterations and solution time required to solve these problems, through learned warm starts.
-</div>
-
-<div id="bib_l2ws_fp" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
-<pre>@article{JMLR:v25:23-1174,
-  author  = {Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},
-  title   = {Learning to Warm-Start Fixed-Point Optimization Algorithms},
-  journal = {Journal of Machine Learning Research},
-  year    = {2024},
-  volume  = {25},
-  number  = {166},
-  pages   = {1--46},
-  url     = {http://jmlr.org/papers/v25/23-1174.html}
-}
-</pre>
-</div>
-
 
 **Data-Driven Performance Guarantees for Classical and Learned Optimizers**\
 Rajiv Sambharya, Bartolomeo Stellato\
@@ -150,6 +106,52 @@ We introduce a data-driven approach to analyze the performance of continuous opt
   url     = {http://jmlr.org/papers/v26/24-0755.html}
 }</pre>
 </div>
+
+
+**Learning to Warm-Start Fixed-Point Optimization Algorithms**\
+Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
+*Journal of Machine Learning Research*, 2024.\
+<a href="https://jmlr.org/papers/volume25/23-1174/23-1174.pdf">
+<button class="button button2">
+Download
+</button>
+</a>
+<a href='javascript:;'
+onclick='$("#abs_l2ws_fp").toggle()'>
+<button class="button button4">
+Abstract
+</button>
+</a>
+<a href='javascript:;'
+onclick='$("#bib_l2ws_fp").toggle()'>
+<button class="button button5">
+Bibtex
+</button>
+</a>
+<a href="https://github.com/stellatogrp/l2ws_fixed_point">
+<button class="button button3">
+Code
+</button>
+</a>
+
+<div id="abs_l2ws_fp" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
+We introduce a machine-learning framework to warm-start fixed-point optimization algorithms. Our architecture consists of a neural network mapping problem parameters to warm starts, followed by a predefined number of fixed-point iterations. We propose two loss functions designed to either minimize the fixed-point residual or the distance to a ground truth solution. In this way, the neural network predicts warm starts with the end-to-end goal of minimizing the downstream loss. An important feature of our architecture is its flexibility, in that it can predict a warm start for fixed-point algorithms run for any number of steps, without being limited to the number of steps it has been trained on. We provide PAC-Bayes generalization bounds on unseen data for common classes of fixed-point operators: contractive, linearly convergent, and averaged. Applying this framework to well-known applications in control, statistics, and signal processing, we observe a significant reduction in the number of iterations and solution time required to solve these problems, through learned warm starts.
+</div>
+
+<div id="bib_l2ws_fp" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
+<pre>@article{JMLR:v25:23-1174,
+  author  = {Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},
+  title   = {Learning to Warm-Start Fixed-Point Optimization Algorithms},
+  journal = {Journal of Machine Learning Research},
+  year    = {2024},
+  volume  = {25},
+  number  = {166},
+  pages   = {1--46},
+  url     = {http://jmlr.org/papers/v25/23-1174.html}
+}
+</pre>
+</div>
+
 
 
 ## Conference Proceedings
