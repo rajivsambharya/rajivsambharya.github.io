@@ -62,6 +62,47 @@ a:active {
 ## Journal Articles
 
 
+**Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization**\
+Rajiv Sambharya, Bartolomeo Stellato\
+*SIAM Journal on Mathematics of Data Science (pending minor revision)*, 2025.\
+<a href="https://arxiv.org/pdf/2411.15717">
+<button class="button button2">
+Download
+</button>
+</a>
+<a href='javascript:;'
+onclick='$("#abs_lah").toggle()'>
+<button class="button button4">
+Abstract
+</button>
+</a>
+<a href='javascript:;'
+onclick='$("#bib_lah").toggle()'>
+<button class="button button5">
+Bibtex
+</button>
+</a>
+<a href="https://github.com/stellatogrp/dataDrivenOptimizerGuarantees">
+<button class="button button3">
+Code
+</button>
+</a>
+
+
+<div id="abs_lah" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
+We introduce a machine-learning framework to learn the hyperparameter sequence of first-order methods (e.g., the step sizes in gradient descent) to quickly solve parametric convex optimization problems. Our computational architecture amounts to running fixed-point iterations where the hyperparameters are the same across all parametric instances and consists of two phases. In the first step-varying phase the hyperparameters vary across iterations, while in the second steady-state phase the hyperparameters are constant across iterations. Our learned optimizer is flexible in that it can be evaluated on any number of iterations and is guaranteed to converge to an optimal solution. To train, we minimize the mean square error to a ground truth solution. In the case of gradient descent, the one-step optimal step size is the solution to a least squares problem, and in the case of unconstrained quadratic minimization, we can compute the two and three-step optimal solutions in closed-form. In other cases, we backpropagate through the algorithm steps to minimize the training objective after a given number of steps. We show how to learn hyperparameters for several popular algorithms: gradient descent, proximal gradient descent, and two ADMM-based solvers: OSQP and SCS. We use a sample convergence bound to obtain generalization guarantees for the performance of our learned algorithm for unseen data, providing both lower and upper bounds. We showcase the effectiveness of our method with many examples, including ones from control, signal processing, and machine learning. Remarkably, our approach is highly data-efficient in that we only use 10 problem instances to train the hyperparameters in all of our examples.
+</div>
+
+<div id="bib_lah" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
+<pre>@article{sambharya2024lah,
+  title={Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization},
+  author={Sambharya, Rajiv and Stellato, Bartolomeo},
+  journal={arXiv preprint arXiv:2411.15717},
+  year={2024}
+}</pre>
+</div>
+
+
 **Data-Driven Performance Guarantees for Classical and Learned Optimizers**\
 Rajiv Sambharya, Bartolomeo Stellato\
 *Journal of Machine Learning Research*, 2025.\
@@ -255,45 +296,6 @@ We develop a machine-learning framework to learn hyperparameter sequences for ac
 }</pre>
 </div>
 
-**Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization**\
-Rajiv Sambharya, Bartolomeo Stellato\
-*Arxiv Preprint, 2024*.\
-<a href="https://arxiv.org/pdf/2411.15717">
-<button class="button button2">
-Download
-</button>
-</a>
-<a href='javascript:;'
-onclick='$("#abs_lah").toggle()'>
-<button class="button button4">
-Abstract
-</button>
-</a>
-<a href='javascript:;'
-onclick='$("#bib_lah").toggle()'>
-<button class="button button5">
-Bibtex
-</button>
-</a>
-<a href="https://github.com/stellatogrp/dataDrivenOptimizerGuarantees">
-<button class="button button3">
-Code
-</button>
-</a>
-
-
-<div id="abs_lah" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
-We introduce a machine-learning framework to learn the hyperparameter sequence of first-order methods (e.g., the step sizes in gradient descent) to quickly solve parametric convex optimization problems. Our computational architecture amounts to running fixed-point iterations where the hyperparameters are the same across all parametric instances and consists of two phases. In the first step-varying phase the hyperparameters vary across iterations, while in the second steady-state phase the hyperparameters are constant across iterations. Our learned optimizer is flexible in that it can be evaluated on any number of iterations and is guaranteed to converge to an optimal solution. To train, we minimize the mean square error to a ground truth solution. In the case of gradient descent, the one-step optimal step size is the solution to a least squares problem, and in the case of unconstrained quadratic minimization, we can compute the two and three-step optimal solutions in closed-form. In other cases, we backpropagate through the algorithm steps to minimize the training objective after a given number of steps. We show how to learn hyperparameters for several popular algorithms: gradient descent, proximal gradient descent, and two ADMM-based solvers: OSQP and SCS. We use a sample convergence bound to obtain generalization guarantees for the performance of our learned algorithm for unseen data, providing both lower and upper bounds. We showcase the effectiveness of our method with many examples, including ones from control, signal processing, and machine learning. Remarkably, our approach is highly data-efficient in that we only use 10 problem instances to train the hyperparameters in all of our examples.
-</div>
-
-<div id="bib_lah" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
-<pre>@article{sambharya2024lah,
-  title={Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization},
-  author={Sambharya, Rajiv and Stellato, Bartolomeo},
-  journal={arXiv preprint arXiv:2411.15717},
-  year={2024}
-}</pre>
-</div>
 
 
 
