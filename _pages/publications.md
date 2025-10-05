@@ -199,7 +199,7 @@ We introduce a machine-learning framework to warm-start fixed-point optimization
 
 **End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization**\
 Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
-*Proceedings of the 5th Conference on Learning for Dynamics and Control, 2023*.\
+*Learning for Dynamics and Control, 2023*.\
 <a href="https://proceedings.mlr.press/v211/sambharya23a/sambharya23a.pdf">
 <button class="button button2">
  Download
