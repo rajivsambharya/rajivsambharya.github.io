@@ -60,9 +60,9 @@ My research lies at the intersection of optimization, control, and machine learn
 
 My email is sambhar9<span style="display:none">foo</span>@seas.upenn.edu.
 
-<span style="color:red">I am on the faculty job market for the 2025–2026 hiring cycle.
+<span style="color:red">I am on the faculty job market for the 2025–2026 hiring cycle.</span>
 
-I will be presenting my recent work at the INFORMS Annual Meeting 2025 in Atlanta on Tuesday, October 28, 4:15-5:30 pm, in the \emph{Machine Learning and Optimization} session (Building B, Level 2, Room B208).</span>
+<span style="color:red">I will be presenting my recent work at the INFORMS Annual Meeting 2025 in Atlanta on Tuesday, October 28, 4:15-5:30 pm, in the *Machine Learning and Optimization* session (Building B, Level 2, Room B208).</span>
 
 
 
