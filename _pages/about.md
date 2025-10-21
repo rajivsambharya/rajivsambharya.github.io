@@ -74,7 +74,7 @@ CV
 **Research Interests: AI for Optimization**\
 I develop methods that use artificial intelligence to design and accelerate optimization algorithms, and study data-driven approaches for providing rigorous performance guarantees for optimization algorithms.
 
-<img src="{{rajivsambharya.github.io}}/images/research_areas.jpg" alt="Research" style="width: 500px; height: 150px; object-fit: cover; object-position: center; overflow: hidden;"/>
+<img src="{{rajivsambharya.github.io}}/images/research_areas.jpg" alt="Research" style="width: 800px; height: 300px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
 
 
