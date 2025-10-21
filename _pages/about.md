@@ -73,7 +73,7 @@ CV
 I am interested in methods that use AI to design and accelerate optimization algorithms, and data-driven approaches for providing rigorous performance guarantees for optimization algorithms.
 - **Learning to accelerate optimization algorithms:** Leveraging data from related problem instances to learn hyperparameters, step-size schedules, and warm starts that significantly speed up convergence.
 - **Data-driven performance guarantees for algorithms:** Developing statistical and optimization-based tools to certify convergence, robustness, and generalization of both classical and learned optimization methods.
-- **Applications for real-time decision-making:** Applying these ideas to control, signal processing, and operations research problems that require fast, reliable optimization under changing conditions.
+- **Applications for real-time decision-making:** Applying these ideas to autonomous systems, data science, signal processing, and operations research problems that require fast, reliable optimization under changing conditions.
 
 <img src="{{rajivsambharya.github.io}}/images/research_areas.jpg" alt="Research" style="width: 800px; height: 300px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
