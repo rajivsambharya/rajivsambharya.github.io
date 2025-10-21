@@ -258,7 +258,7 @@ iterations required to obtain high-quality solutions.
 
 **Learning Acceleration Algorithms for Fast Parametric Convex Optimization with Certified Robustness**\
 Rajiv Sambharya, Jinho Bok, Nikolai Matni, George Pappas\
-*Arxiv Preprint, 2025*.\
+*Arxiv Preprint, 2025 (Under review at SIAM Journal on Optimization)*.\
 <a href="https://arxiv.org/pdf/2507.16264">
 <button class="button button2">
 Download

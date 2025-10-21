@@ -57,8 +57,6 @@ a:active {
 
 I am a Postdoctoral Researcher in the [Electrical and Systems Engineering](https://www.ese.upenn.edu/) department at Penn hosted by [George Pappas](https://www.georgejpappas.org/). I obtained my PhD from the [Operations Research and Financial Engineering](https://orfe.princeton.edu) department at Princeton (2019-2024) advised by [Bartolomeo Stellato](https://stellato.io).  I completed my Undergraduate and Master's degrees at UC Berkeley in Electrical Engineering and Computer Science (2013-2018) advised by [Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/).
 My research lies at the intersection of optimization, control, and machine learning.
-
-
 My email is sambhar9<span style="display:none">foo</span>@seas.upenn.edu.
 
 <a href="{{rajivsambharya.github.io}}/files/CV.pdf">
@@ -72,7 +70,10 @@ CV
 <span style="color:purple">I will be presenting my recent work at the INFORMS Annual Meeting 2025 in Atlanta on Tuesday, October 28, 4:15-5:30 pm, in the *Machine Learning and Optimization* session (Building B, Level 2, Room B208).</span>
 
 **Research Interests: AI for Optimization**\
-I develop methods that use artificial intelligence to design and accelerate optimization algorithms, and study data-driven approaches for providing rigorous performance guarantees for optimization algorithms.
+I am interested in methods that use AI to design and accelerate optimization algorithms, and data-driven approaches for providing rigorous performance guarantees for optimization algorithms.
+- **Learning to accelerate optimization algorithms:** Leveraging data from related problem instances to learn hyperparameters, step-size schedules, and warm starts that significantly speed up convergence.
+- **Data-driven performance guarantees for algorithms:** Developing statistical and optimization-based tools to certify convergence, robustness, and generalization of both classical and learned optimization methods.
+- **Applications for real-time decision-making:** Applying these ideas to control, signal processing, and operations research problems that require fast, reliable optimization under changing conditions.
 
 <img src="{{rajivsambharya.github.io}}/images/research_areas.jpg" alt="Research" style="width: 800px; height: 300px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
