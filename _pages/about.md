@@ -69,7 +69,7 @@ CV
 
 <span style="color:purple">I will be presenting my recent work at the INFORMS Annual Meeting 2025 in Atlanta on Tuesday, October 28, 4:15-5:30 pm, in the *Machine Learning and Optimization* session (Building B, Level 2, Room B208).</span>
 
-**Research Interests: AI for Optimization for Fast and Reliable Data-Driven Decision-making**\
+**Research: AI for Optimization for Fast and Reliable Data-Driven Decision-making**\
 I am interested in methods that use AI to design and accelerate optimization algorithms, and data-driven approaches for providing rigorous performance guarantees for optimization algorithms.
 - **Learning to accelerate optimization algorithms:** Leveraging data from related problem instances to learn hyperparameters, step-size schedules, and warm starts that significantly speed up convergence.
 - **Data-driven performance guarantees for algorithms:** Developing statistical and optimization-based tools to certify convergence, robustness, and generalization of both classical and learned optimization algorithms.
