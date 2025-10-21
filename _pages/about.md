@@ -58,12 +58,17 @@ a:active {
 I am a Postdoctoral Researcher in the [Electrical and Systems Engineering](https://www.ese.upenn.edu/) department at Penn hosted by [George Pappas](https://www.georgejpappas.org/). I obtained my PhD from the [Operations Research and Financial Engineering](https://orfe.princeton.edu) department at Princeton (2019-2024) advised by [Bartolomeo Stellato](https://stellato.io).  I completed my Undergraduate and Master's degrees at UC Berkeley in Electrical Engineering and Computer Science (2013-2018) advised by [Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/).
 My research lies at the intersection of optimization, control, and machine learning.
 
+
 My email is sambhar9<span style="display:none">foo</span>@seas.upenn.edu.
 
-<span style="color:red">I am on the faculty job market for the 2025–2026 hiring cycle.</span>
+<span style="color:purple">I am on the faculty job market for the 2025–2026 hiring cycle.</span>
 
-<span style="color:red">I will be presenting my recent work at the INFORMS Annual Meeting 2025 in Atlanta on Tuesday, October 28, 4:15-5:30 pm, in the *Machine Learning and Optimization* session (Building B, Level 2, Room B208).</span>
+<span style="color:purple">I will be presenting my recent work at the INFORMS Annual Meeting 2025 in Atlanta on Tuesday, October 28, 4:15-5:30 pm, in the *Machine Learning and Optimization* session (Building B, Level 2, Room B208).</span>
 
+
+I develop methods that use artificial intelligence to design and accelerate optimization algorithms, and study data-driven approaches for providing rigorous performance guarantees for both classical and learned optimizers.
+
+<img src="{{rajivsambharya.github.io}}/images/research_areas.pdf" alt="Research" style="width: 225px; height: 67px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
 
 <a href="{{rajivsambharya.github.io}}/files/CV.pdf">
