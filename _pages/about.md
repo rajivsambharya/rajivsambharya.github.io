@@ -65,10 +65,15 @@ My email is sambhar9<span style="display:none">foo</span>@seas.upenn.edu.
 
 <span style="color:purple">I will be presenting my recent work at the INFORMS Annual Meeting 2025 in Atlanta on Tuesday, October 28, 4:15-5:30 pm, in the *Machine Learning and Optimization* session (Building B, Level 2, Room B208).</span>
 
-**Research Interests: AI for Optimization**
+**Research Interests: AI for Optimization**\\
 I develop methods that use artificial intelligence to design and accelerate optimization algorithms, and study data-driven approaches for providing rigorous performance guarantees for optimization algorithms.
 
-<img src="{{rajivsambharya.github.io}}/images/research_areas.png" alt="Research" style="width: 225px; height: 67px; object-fit: cover; object-position: center; overflow: hidden;"/>
+<iframe 
+    src="/assets/pdfs/research_areas.pdf"
+    width="600"
+    height="400"
+    style="border:none;"
+></iframe>
 
 
 <a href="{{rajivsambharya.github.io}}/files/CV.pdf">
