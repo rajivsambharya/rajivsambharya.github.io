@@ -67,7 +67,6 @@ CV
 
 <span style="color:purple">I am on the faculty job market for the 2025–2026 hiring cycle.</span>
 
-<span style="color:purple">I will be presenting my recent work at the INFORMS Annual Meeting 2025 in Atlanta on Tuesday, October 28, 4:15-5:30 pm, in the *Machine Learning and Optimization* session (Building B, Level 2, Room B208).</span>
 
 **Research: AI for Optimization toward Fast and Reliable Data-Driven Decision-Making**\
 I am interested in methods that use AI to design and accelerate optimization algorithms, and data-driven approaches for providing rigorous performance guarantees for optimization algorithms.

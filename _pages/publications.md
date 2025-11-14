@@ -106,7 +106,7 @@ We introduce a machine-learning framework to learn the hyperparameter sequence o
 **Data-Driven Performance Guarantees for Classical and Learned Optimizers**\
 Rajiv Sambharya, Bartolomeo Stellato\
 *Journal of Machine Learning Research*, 2025.\
-<a href="https://arxiv.org/pdf/2404.13831.pdf">
+<a href="http://www.jmlr.org/papers/volume26/24-0755/24-0755.pdf">
 <button class="button button2">
 Download
 </button>
@@ -242,19 +242,54 @@ iterations required to obtain high-quality solutions.
 </div>
     
 <div id="bib_e2e_qp" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
-<pre>@misc{sambharya_2022_endtoend,
-      title={End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization}, 
-      author={Rajiv Sambharya and Georgina Hall and Brandon Amos and Bartolomeo Stellato},
-      year={2022},
-      eprint={2212.08260},
-      archivePrefix={arXiv},
-      primaryClass={math.OC}
+<pre>@inproceedings{sambharya2023end,
+  title={End-to-end learning to warm-start for real-time quadratic optimization},
+  author={Sambharya, Rajiv and Hall, Georgina and Amos, Brandon and Stellato, Bartolomeo},
+  booktitle={Learning for dynamics and control conference},
+  pages={220--234},
+  year={2023},
+  organization={PMLR}
 }
 </pre>
 </div>
 
 
 ## Preprints
+
+**Verification of Sequential Convex Programming for Parametric Non-convex Optimization**\
+Rajiv Sambharya, Nikolai Matni, George Pappas\
+*Arxiv Preprint, 2025 (To be submitted to SIAM Journal on Optimization)*.\
+<a href="https://arxiv.org/pdf/2507.16264">
+<button class="button button2">
+Download
+</button>
+</a>
+<a href='javascript:;'
+onclick='$("#abs_verification").toggle()'>
+<button class="button button4">
+Abstract
+</button>
+</a>
+<a href='javascript:;'
+onclick='$("#bib_verification").toggle()'>
+<button class="button button5">
+Bibtex
+</button>
+</a>
+
+<div id="abs_verification" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
+We introduce a verification framework to exactly verify the worst-case performance of sequential convex programming (SCP) algorithms for parametric non-convex optimization. The verification problem is formulated as an optimization problem that maximizes a performance metric (e.g., the suboptimality after a given number of iterations) over parameters constrained to be in a parameter set and iterate sequences consistent with the SCP update rules. Our framework is general, extending the notion of SCP to include both conventional variants such as trust-region, convex-concave, and prox-linear methods, and algorithms that combine convex subproblems with rounding steps, as in relaxing and rounding schemes. Unlike existing analyses that may only provide local guarantees under limited conditions, our framework delivers global worst-case guarantees—quantifying how well an SCP algorithm performs across all problem instances in the specified family. Applications in control, signal processing, and operations research demonstrate that our framework provides, for the first time, global worst-case guarantees for SCP algorithms in the parametric setting.
+</div>
+
+<div id="bib_verification" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
+<pre>@article{sambharya2025verification,
+  title={Verification of Sequential Convex Programming for Parametric Non-convex Optimization},
+  author={Sambharya, Rajiv and Matni, Nikolai and Pappas, George},
+  journal={arXiv preprint arXiv:2511.10622},
+  year={2025}
+}</pre>
+</div>
+
 
 **Learning Acceleration Algorithms for Fast Parametric Convex Optimization with Certified Robustness**\
 Rajiv Sambharya, Jinho Bok, Nikolai Matni, George Pappas\
@@ -265,13 +300,13 @@ Download
 </button>
 </a>
 <a href='javascript:;'
-onclick='$("#abs_lah").toggle()'>
+onclick='$("#abs_accel").toggle()'>
 <button class="button button4">
 Abstract
 </button>
 </a>
 <a href='javascript:;'
-onclick='$("#bib_lah").toggle()'>
+onclick='$("#bib_accel").toggle()'>
 <button class="button button5">
 Bibtex
 </button>
@@ -283,11 +318,11 @@ Code
 </a>
 
 
-<div id="abs_lah" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
+<div id="abs_accel" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
 We develop a machine-learning framework to learn hyperparameter sequences for accelerated first-order methods (e.g., the step size and momentum sequences in accelerated gradient descent) to quickly solve parametric convex optimization problems with certified robustness. We obtain a strong form of robustness guarantee -- certification of worst-case performance over all parameters within a set after a given number of iterations -- through regularization-based training. The regularization term is derived from the performance estimation problem (PEP) framework based on semidefinite programming, in which the hyperparameters appear as problem data. We show how to use gradient-based training to learn the hyperparameters for several first-order methods: accelerated versions of gradient descent, proximal gradient descent, and alternating direction method of multipliers. Through various numerical examples from signal processing, control, and statistics, we demonstrate that the quality of the solution can be dramatically improved within a budget of iterations, while also maintaining strong robustness guarantees. Notably, our approach is highly data-efficient in that we only use ten training instances in all of the numerical examples.
 </div>
 
-<div id="bib_lah" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
+<div id="bib_accel" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
 <pre>@article{sambharya2024lah,
   title={Learning Acceleration Algorithms for Fast Parametric Convex Optimization with Certified Robustness},
   author={Sambharya, Rajiv and Bok, Jinho and Matni, Nikolai and Pappas, George},
