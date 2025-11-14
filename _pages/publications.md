@@ -259,7 +259,7 @@ iterations required to obtain high-quality solutions.
 **Verification of Sequential Convex Programming for Parametric Non-convex Optimization**\
 Rajiv Sambharya, Nikolai Matni, George Pappas\
 *Arxiv Preprint, 2025 (To be submitted to SIAM Journal on Optimization)*.\
-<a href="https://arxiv.org/pdf/2507.16264">
+<a href="https://arxiv.org/pdf/2511.10622">
 <button class="button button2">
 Download
 </button>
