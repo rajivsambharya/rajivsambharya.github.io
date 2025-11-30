@@ -276,11 +276,15 @@ onclick='$("#bib_verification").toggle()'>
 Bibtex
 </button>
 </a>
-
+</a>
+<a href="https://github.com/rajivsambharya/verify_scp">
+<button class="button button3">
+Code
+</button>
+</a>
 <div id="abs_verification" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
 We introduce a verification framework to exactly verify the worst-case performance of sequential convex programming (SCP) algorithms for parametric non-convex optimization. The verification problem is formulated as an optimization problem that maximizes a performance metric (e.g., the suboptimality after a given number of iterations) over parameters constrained to be in a parameter set and iterate sequences consistent with the SCP update rules. Our framework is general, extending the notion of SCP to include both conventional variants such as trust-region, convex-concave, and prox-linear methods, and algorithms that combine convex subproblems with rounding steps, as in relaxing and rounding schemes. Unlike existing analyses that may only provide local guarantees under limited conditions, our framework delivers global worst-case guarantees—quantifying how well an SCP algorithm performs across all problem instances in the specified family. Applications in control, signal processing, and operations research demonstrate that our framework provides, for the first time, global worst-case guarantees for SCP algorithms in the parametric setting.
 </div>
-
 <div id="bib_verification" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
 <pre>@article{sambharya2025verification,
   title={Verification of Sequential Convex Programming for Parametric Non-convex Optimization},
@@ -311,7 +315,8 @@ onclick='$("#bib_accel").toggle()'>
 Bibtex
 </button>
 </a>
-<a href="https://github.com/stellatogrp/dataDrivenOptimizerGuarantees">
+<a href="https://github.com/rajivsambharya/learn_accel_steps_robust
+">
 <button class="button button3">
 Code
 </button>
