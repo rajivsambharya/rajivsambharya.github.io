@@ -276,7 +276,6 @@ onclick='$("#bib_verification").toggle()'>
 Bibtex
 </button>
 </a>
-</a>
 <a href="https://github.com/rajivsambharya/verify_scp">
 <button class="button button3">
 Code
