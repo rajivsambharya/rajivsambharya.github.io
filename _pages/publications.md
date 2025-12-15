@@ -258,7 +258,7 @@ iterations required to obtain high-quality solutions.
 
 **Verification of Sequential Convex Programming for Parametric Non-convex Optimization**\
 Rajiv Sambharya, Nikolai Matni, George Pappas\
-*Arxiv Preprint, 2025 (Under review at SIAM Journal on Optimization)*.\
+*Arxiv Preprint, 2025*.\
 <a href="https://arxiv.org/pdf/2511.10622">
 <button class="button button2">
 Download
@@ -296,7 +296,7 @@ We introduce a verification framework to exactly verify the worst-case performan
 
 **Learning Acceleration Algorithms for Fast Parametric Convex Optimization with Certified Robustness**\
 Rajiv Sambharya, Jinho Bok, Nikolai Matni, George Pappas\
-*Arxiv Preprint, 2025 (Under review at SIAM Journal on Optimization)*.\
+*Arxiv Preprint, 2025*.\
 <a href="https://arxiv.org/pdf/2507.16264">
 <button class="button button2">
 Download
