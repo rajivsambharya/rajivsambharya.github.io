@@ -64,7 +64,7 @@ a:active {
 
 **Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization**\
 Rajiv Sambharya, Bartolomeo Stellato\
-*SIAM Journal on Mathematics of Data Science (pending minor revision)*, 2025.\
+*SIAM Journal on Mathematics of Data Science (forthcoming)*, 2025.\
 <a href="https://arxiv.org/pdf/2411.15717">
 <button class="button button2">
 Download
