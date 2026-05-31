@@ -65,16 +65,18 @@ CV
 </button>
 </a>
 
-<span style="color:purple">I am on the faculty job market for the 2025–2026 hiring cycle.</span>
+<span style="color:purple">I will be joining the Texas A&M Industrial and Systems Engineering department in Fall 2026.</span>
 
+<!-- <span style="color:purple">I am on the faculty job market for the 2025–2026 hiring cycle.</span> -->
 
+<!-- 
 **Research: AI for Optimization toward Fast and Reliable Data-Driven Decision-Making**\
 I am interested in methods that use AI to design and accelerate optimization algorithms, and data-driven approaches for providing rigorous performance guarantees for optimization algorithms.
 - **Learning to accelerate optimization algorithms:** Leveraging data from related problem instances to learn hyperparameters, step-size schedules, and warm starts that significantly speed up convergence.
 - **Data-driven performance guarantees for algorithms:** Developing statistical and optimization-based tools to certify convergence, robustness, and generalization of both classical and learned optimization algorithms.
 - **Applications for real-time decision-making:** Applying these ideas to autonomous systems, data science, signal processing, power grids, and operations research problems that require fast, reliable optimization under changing conditions.
 
-<img src="{{rajivsambharya.github.io}}/images/research_areas.jpg" alt="Research" style="width: 800px; height: 300px; object-fit: cover; object-position: center; overflow: hidden;"/>
+<img src="{{rajivsambharya.github.io}}/images/research_areas.jpg" alt="Research" style="width: 800px; height: 300px; object-fit: cover; object-position: center; overflow: hidden;"/> -->
 
 
 
@@ -88,6 +90,8 @@ I am interested in methods that use AI to design and accelerate optimization alg
 <!-- ![]({{rajivsambharya.github.io}}/images/penn_logo.png)
 ![]({{rajivsambharya.github.io}}/images/princeton_logo.png)
 ![]({{rajivsambharya.github.io}}/images/berkeley_logo.png) -->
+
+<img src="{{rajivsambharya.github.io}}/images/tamu_logo.png" alt="TAMU Logo" style="width: 180px; height: 60px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
 <img src="{{rajivsambharya.github.io}}/images/penn_logo.png" alt="Penn Logo" style="width: 180px; height: 60px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
