@@ -65,7 +65,7 @@ CV
 </button>
 </a>
 
-<span style="color:purple">I will be joining the Texas A&M Industrial and Systems Engineering department in Fall 2026.</span>
+<span style="color:purple">I will be joining the Texas A&M Industrial and Systems Engineering department as an Assistant Professor in Fall 2026.</span>
 
 <!-- <span style="color:purple">I am on the faculty job market for the 2025–2026 hiring cycle.</span> -->
 
@@ -91,7 +91,7 @@ I am interested in methods that use AI to design and accelerate optimization alg
 ![]({{rajivsambharya.github.io}}/images/princeton_logo.png)
 ![]({{rajivsambharya.github.io}}/images/berkeley_logo.png) -->
 
-<img src="{{rajivsambharya.github.io}}/images/tamu_logo_white.png" alt="TAMU Logo" style="width: 240px; height: 80px; object-fit: cover; object-position: center; overflow: hidden;"/>
+<img src="{{rajivsambharya.github.io}}/images/tamu_logo_white.png" alt="TAMU Logo" style="width: 240px; height: 90px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
 <img src="{{rajivsambharya.github.io}}/images/penn_logo.png" alt="Penn Logo" style="width: 180px; height: 60px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
