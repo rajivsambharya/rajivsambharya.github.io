@@ -91,12 +91,14 @@ I am interested in methods that use AI to design and accelerate optimization alg
 ![]({{rajivsambharya.github.io}}/images/princeton_logo.png)
 ![]({{rajivsambharya.github.io}}/images/berkeley_logo.png) -->
 
-<img src="{{rajivsambharya.github.io}}/images/tamu_logo_white.png" alt="TAMU Logo" style="width: 240px; height: 90px; object-fit: cover; object-position: center; overflow: hidden;"/>
+<img src="{{rajivsambharya.github.io}}/images/logos-crop.pdf" alt="Logo" style="width: 240px; height: 90px; object-fit: cover; object-position: center; overflow: hidden;"/>
+
+<!-- <img src="{{rajivsambharya.github.io}}/images/tamu_logo_white.png" alt="TAMU Logo" style="width: 240px; height: 90px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
 <img src="{{rajivsambharya.github.io}}/images/penn_logo.png" alt="Penn Logo" style="width: 180px; height: 60px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
 <img src="{{rajivsambharya.github.io}}/images/princeton_logo.png" alt="Princeton Logo" style="width: 255px; height: 67px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
-<img src="{{rajivsambharya.github.io}}/images/berkeley_logo.png" alt="Berkeley Logo" style="width: 225px; height: 67px; object-fit: cover; object-position: center; overflow: hidden;"/>
+<img src="{{rajivsambharya.github.io}}/images/berkeley_logo.png" alt="Berkeley Logo" style="width: 225px; height: 67px; object-fit: cover; object-position: center; overflow: hidden;"/> -->
 
 
