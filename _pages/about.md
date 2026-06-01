@@ -91,7 +91,7 @@ I am interested in methods that use AI to design and accelerate optimization alg
 ![]({{rajivsambharya.github.io}}/images/princeton_logo.png)
 ![]({{rajivsambharya.github.io}}/images/berkeley_logo.png) -->
 
-<img src="{{rajivsambharya.github.io}}/images/logos-crop.png" alt="Logo" style="width: 240px; height: 90px; object-fit: cover; object-position: center; overflow: hidden;"/>
+<img src="{{rajivsambharya.github.io}}/images/logos-crop.png" alt="Logo" style="width: 260px; height: auto;"/>
 
 <!-- <img src="{{rajivsambharya.github.io}}/images/tamu_logo_white.png" alt="TAMU Logo" style="width: 240px; height: 90px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
