@@ -29,7 +29,7 @@ a:active {
 </style>
 
 ## AI for Optimization: Fast and Reliable Data-Driven Decision-Making
-Texas A\&M University: Industrial and Systems Engineering Department Seminar\
+Texas A&M University: Industrial and Systems Engineering Department Seminar\
 May 2026
 
 North Carolina State University: Industrial and Systems Engineering Department Seminar\
