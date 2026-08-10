@@ -28,15 +28,22 @@ a:active {
 }
 </style>
 
+## AI for Optimization: Fast and Reliable Data-Driven Decision-Making
+Texas A\&M University: Industrial and Systems Engineering Department Seminar\
+May 2026
+
+North Carolina State University: Industrial and Systems Engineering Department Seminar\
+January 2026
+
 ## Verification of Sequential Convex Programming for Parametric Non-convex Optimization
-INFORMS Optimization Society Conference
+INFORMS Optimization Society Conference\
 <a href="{{rajivsambharya.github.io}}/slides/ios_2026.pdf" download>
   Slides
 </a>\
 March 2026
 
 ## Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization with Certified Robustness
-SIAM Conference on Optimization
+SIAM Conference on Optimization\
 <a href="{{rajivsambharya.github.io}}/slides/siopt_2026.pdf" download>
   Slides
 </a>\
