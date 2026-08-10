@@ -107,7 +107,7 @@ INFORMS Annual Meeting, San Francisco, Nov 2026
 
 <div class="news-box" markdown="1">
 Aug 2026
-: I began teaching DAEN429: Data Analytics II at Texas A&M, a course in the [Data Engineering](https://engineering.tamu.edu/industrial/academics/degrees/undergraduate/bs-daen.html) program.
+: I began teaching DAEN429: Data Analytics II at Texas A&M, a deep learning course in the [Data Engineering](https://engineering.tamu.edu/industrial/academics/degrees/undergraduate/bs-daen.html) program.
 : I have started as an Assistant Professor in the [Industrial and Systems Engineering](https://engineering.tamu.edu/industrial/index.html) Department at [Texas A&M University](https://www.tamu.edu/index.html)!
 
 Jul 2026
