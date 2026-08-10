@@ -100,8 +100,10 @@ My research lies at the intersection of optimization, control, and machine learn
 My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
 
 ## Upcoming Talks
+<span style="font-size: 0.85em;">
 University of Delaware, September 2026<br>
 INFORMS Annual Meeting, San Francisco, Nov 2026
+</span>
 
 ## News
 
