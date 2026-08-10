@@ -55,40 +55,50 @@ a:active {
 .button11 {background-color:#BF00BF; color:#BF00BF} /* Magenta */
 
 .news-box {
-  height: 220px;
+  height: 286px;
   overflow-y: scroll;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 10px 15px;
   margin: 15px 0;
 }
-.news-box dl {
-  display: grid;
-  grid-template-columns: 78px 1fr;
-  column-gap: 14px;
-  row-gap: 6px;
-  margin: 0;
-}
-.news-box dt {
-  grid-column: 1;
-  color: #888;
+.news-box .news-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 8px;
   font-size: 0.85em;
+}
+.news-box .news-group:last-child {
+  margin-bottom: 0;
+}
+.news-box .news-date {
+  flex: 0 0 60px;
+  align-self: flex-start;
+  color: #888;
   white-space: nowrap;
   text-align: right;
-  padding-top: 3px;
+  padding-top: 2px;
 }
-.news-box dd {
-  grid-column: 2;
+.news-box .news-entries {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+.news-box .news-entry {
   margin: 0;
-  padding: 3px 0 3px 16px;
+  padding: 0 0 0 14px;
   border-left: 2px solid #ddd;
   position: relative;
+  line-height: 1.35;
 }
-.news-box dd::before {
+.news-box .news-entry::before {
   content: "";
   position: absolute;
   left: -5px;
-  top: 9px;
+  top: 6px;
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -107,23 +117,67 @@ INFORMS Annual Meeting, San Francisco, Nov 2026
 
 ## News
 
-<div class="news-box" markdown="1">
-Aug 2026
-: I began teaching DAEN429: Data Analytics II at Texas A&M, a deep learning course in the [Data Engineering](https://engineering.tamu.edu/industrial/academics/degrees/undergraduate/bs-daen.html) program.
-: I have started as an Assistant Professor in the [Industrial and Systems Engineering](https://engineering.tamu.edu/industrial/index.html) Department at [Texas A&M University](https://www.tamu.edu/index.html)!
+<div class="news-box">
 
-Jul 2026
-: Our paper **[Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization](https://epubs.siam.org/doi/10.1137/24M1712242)** with [Bartolomeo Stellato](https://stellato.io) was accepted to the SIAM Journal on Mathematics of Data Science.
+<div class="news-group">
+<div class="news-date">Aug 2026</div>
+<div class="news-entries" markdown="1">
 
-Jun 2026
-: I gave a talk at the [SIAM Conference on Optimization](https://www.siam.org/conferences-events/siam-conferences/op26/) in Edinburgh on **[Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization with Certified Robustness]({{rajivsambharya.github.io}}/slides/siopt_2026.pdf)**. Thank you [Bartolomeo Stellato](https://stellato.io) for the invitation!
+<div class="news-entry" markdown="1">
+I began teaching DAEN429: Data Analytics II at Texas A&M, a deep learning course in the [Data Engineering](https://engineering.tamu.edu/industrial/academics/degrees/undergraduate/bs-daen.html) program.
+</div>
 
-March 2026
-: I gave a talk at the [INFORMS Optimization Society Conference](https://ios2026.isye.gatech.edu/) in Atlanta on **[Verification of Sequential Convex Programming for Parametric Non-convex Optimization]({{rajivsambharya.github.io}}/slides/ios_2026.pdf)**.
+<div class="news-entry" markdown="1">
+I have started as an Assistant Professor in the [Industrial and Systems Engineering](https://engineering.tamu.edu/industrial/index.html) Department at [Texas A&M University](https://www.tamu.edu/index.html)!
+</div>
 
-Nov 2025
-: New preprint on **[Verification of Sequential Convex Programming for Parametric Non-convex Optimization](https://arxiv.org/abs/2511.10622)** with [Nik Matni](https://nikolaimatni.github.io/) and [George Pappas](https://www.georgejpappas.org/).
-We establish exact worst-case guarantees for several different sequential convex programming algorithms in the parametric setting for the first time.
+</div>
+</div>
+
+<div class="news-group">
+<div class="news-date">Jul 2026</div>
+<div class="news-entries" markdown="1">
+
+<div class="news-entry" markdown="1">
+Our paper **[Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization](https://epubs.siam.org/doi/10.1137/24M1712242)** with [Bartolomeo Stellato](https://stellato.io) was accepted to the SIAM Journal on Mathematics of Data Science.
+</div>
+
+</div>
+</div>
+
+<div class="news-group">
+<div class="news-date">Jun 2026</div>
+<div class="news-entries" markdown="1">
+
+<div class="news-entry" markdown="1">
+I gave a talk at the [SIAM Conference on Optimization](https://www.siam.org/conferences-events/siam-conferences/op26/) in Edinburgh on **[Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization with Certified Robustness]({{rajivsambharya.github.io}}/slides/siopt_2026.pdf)**. Thank you [Bartolomeo Stellato](https://stellato.io) for the invitation!
+</div>
+
+</div>
+</div>
+
+<div class="news-group">
+<div class="news-date">Mar 2026</div>
+<div class="news-entries" markdown="1">
+
+<div class="news-entry" markdown="1">
+I gave a talk at the [INFORMS Optimization Society Conference](https://ios2026.isye.gatech.edu/) in Atlanta on **[Verification of Sequential Convex Programming for Parametric Non-convex Optimization]({{rajivsambharya.github.io}}/slides/ios_2026.pdf)**.
+</div>
+
+</div>
+</div>
+
+<div class="news-group">
+<div class="news-date">Nov 2025</div>
+<div class="news-entries" markdown="1">
+
+<div class="news-entry" markdown="1">
+New preprint on **[Verification of Sequential Convex Programming for Parametric Non-convex Optimization](https://arxiv.org/abs/2511.10622)** with [Nik Matni](https://nikolaimatni.github.io/) and [George Pappas](https://www.georgejpappas.org/). We establish exact worst-case guarantees for several different sequential convex programming algorithms in the parametric setting for the first time.
+</div>
+
+</div>
+</div>
+
 </div>
 
 <!-- <span style="color:purple">I will be joining the Texas A&M Industrial and Systems Engineering department as an Assistant Professor in Fall 2026.</span> -->
