@@ -55,7 +55,7 @@ a:active {
 .button11 {background-color:#BF00BF; color:#BF00BF} /* Magenta */
 
 .news-box {
-  height: 286px;
+  height: 300px;
   overflow-y: scroll;
   border: 1px solid #ddd;
   border-radius: 5px;
