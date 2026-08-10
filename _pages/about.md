@@ -53,16 +53,76 @@ a:active {
 .button9 {background-color:#2CA02C; color:#2CA02C} /* Green */
 .button10 {background-color:black; color:black} /* Black */
 .button11 {background-color:#BF00BF; color:#BF00BF} /* Magenta */
+
+.news-box {
+  height: 220px;
+  overflow-y: scroll;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 15px 0;
+}
+.news-box dl {
+  display: grid;
+  grid-template-columns: 78px 1fr;
+  column-gap: 14px;
+  row-gap: 6px;
+  margin: 0;
+}
+.news-box dt {
+  grid-column: 1;
+  color: #888;
+  font-size: 0.85em;
+  white-space: nowrap;
+  text-align: right;
+  padding-top: 3px;
+}
+.news-box dd {
+  grid-column: 2;
+  margin: 0;
+  padding: 3px 0 3px 16px;
+  border-left: 2px solid #ddd;
+  position: relative;
+}
+.news-box dd::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #aaa;
+}
 </style>
+I am an Assistant Professor in the [Industrial and Systems Engineering](https://engineering.tamu.edu/industrial/index.html) Department at [Texas A&M University](https://www.tamu.edu/index.html).
+My research lies at the intersection of optimization, control, and machine learning.
+My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
 
-I am an Assistant Professor in the [Industrial and Systems Engineering](https://engineering.tamu.edu/industrial/index.html) department at Texas A&M University (started Fall 2026). I am a Postdoctoral Researcher in the [Electrical and Systems Engineering](https://www.ese.upenn.edu/) department at Penn hosted by [George Pappas](https://www.georgejpappas.org/). 
-I obtained my PhD from the [Operations Research and Financial Engineering](https://orfe.princeton.edu) department at Princeton (2019-2024) advised by [Bartolomeo Stellato](https://stellato.io).  I completed my Undergraduate and Master's degrees at UC Berkeley in Electrical Engineering and Computer Science (2013-2018) advised by [Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/). My research lies at the intersection of optimization, control, and machine learning. My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
+## Upcoming Talks
+University of Delaware, September 2026<br>
+INFORMS Annual Meeting, San Francisco, Nov 2026
 
-<a href="{{rajivsambharya.github.io}}/files/CV.pdf">
-<button class="button button2">
-CV
-</button>
-</a>
+## News
+
+<div class="news-box" markdown="1">
+Aug 2026
+: I began teaching DAEN429: Data Analytics II at Texas A&M, a course in the [Data Engineering](https://engineering.tamu.edu/industrial/academics/degrees/undergraduate/bs-daen.html) program.
+: I have started as an Assistant Professor in the [Industrial and Systems Engineering](https://engineering.tamu.edu/industrial/index.html) Department at [Texas A&M University](https://www.tamu.edu/index.html)!
+
+Jul 2026
+: Our paper **[Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization](https://epubs.siam.org/doi/10.1137/24M1712242)** with [Bartolomeo Stellato](https://stellato.io) was accepted to the SIAM Journal on Mathematics of Data Science.
+
+Jun 2026
+: I gave a talk at the [SIAM Conference on Optimization](https://www.siam.org/conferences-events/siam-conferences/op26/) in Edinburgh on **[Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization with Certified Robustness]({{rajivsambharya.github.io}}/slides/siopt_2026.pdf)**. Thank you [Bartolomeo Stellato](https://stellato.io) for the invitation!
+
+March 2026
+: I gave a talk at the [INFORMS Optimization Society Conference](https://ios2026.isye.gatech.edu/) in Atlanta on **[Verification of Sequential Convex Programming for Parametric Non-convex Optimization]({{rajivsambharya.github.io}}/slides/ios_2026.pdf)**.
+
+Nov 2025
+: New preprint on **[Verification of Sequential Convex Programming for Parametric Non-convex Optimization](https://arxiv.org/abs/2511.10622)** with [Nik Matni](https://nikolaimatni.github.io/) and [George Pappas](https://www.georgejpappas.org/).
+We establish exact worst-case guarantees for several different sequential convex programming algorithms in the parametric setting for the first time.
+</div>
 
 <!-- <span style="color:purple">I will be joining the Texas A&M Industrial and Systems Engineering department as an Assistant Professor in Fall 2026.</span> -->
 
@@ -89,8 +149,6 @@ I am interested in methods that use AI to design and accelerate optimization alg
 <!-- ![]({{rajivsambharya.github.io}}/images/penn_logo.png)
 ![]({{rajivsambharya.github.io}}/images/princeton_logo.png)
 ![]({{rajivsambharya.github.io}}/images/berkeley_logo.png) -->
-
-<img src="{{rajivsambharya.github.io}}/images/logos-crop.png" alt="Logo" style="width: 260px; height: auto;"/>
 
 <!-- <img src="{{rajivsambharya.github.io}}/images/tamu_logo_white.png" alt="TAMU Logo" style="width: 240px; height: 90px; object-fit: cover; object-position: center; overflow: hidden;"/>
 
