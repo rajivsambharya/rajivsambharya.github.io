@@ -124,6 +124,7 @@ a:active {
 </style>
 I am an Assistant Professor in the [Industrial and Systems Engineering](https://engineering.tamu.edu/industrial/index.html) Department at [Texas A&M University](https://www.tamu.edu/index.html).
 My research lies at the intersection of optimization, control, and machine learning.
+I focus on developing data-driven tools to enable fast and reliable optimization.
 My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
 
 ## Upcoming Talks
@@ -200,7 +201,7 @@ I gave a talk at the [SIAM Conference on Optimization](https://www.siam.org/conf
 <div class="news-entries" markdown="1">
 
 <div class="news-entry" markdown="1">
-I gave a talk at the [INFORMS Optimization Society Conference](https://ios2026.isye.gatech.edu/) in Atlanta on **[Verification of Sequential Convex Programming for Parametric Non-convex Optimization]({{rajivsambharya.github.io}}/slides/ios_2026.pdf)**.
+I organized a session called **Data-Driven Algorithm Design and Analysis for Parametric Optimization** at the [INFORMS Optimization Society Conference](https://ios2026.isye.gatech.edu/) in Atlanta. Thank you [Mathieu Dahan](https://sites.gatech.edu/mathieu-dahan/) for the kind invitation. In the same session, I gave a talk on **[Verification of Sequential Convex Programming for Parametric Non-convex Optimization]({{rajivsambharya.github.io}}/slides/ios_2026.pdf)**.
 </div>
 
 </div>
@@ -211,7 +212,7 @@ I gave a talk at the [INFORMS Optimization Society Conference](https://ios2026.i
 <div class="news-entries" markdown="1">
 
 <div class="news-entry" markdown="1">
-New preprint on **[Verification of Sequential Convex Programming for Parametric Non-convex Optimization](https://arxiv.org/abs/2511.10622)** with [Nik Matni](https://nikolaimatni.github.io/) and [George Pappas](https://www.georgejpappas.org/). We establish exact worst-case guarantees for several different sequential convex programming algorithms in the parametric setting for the first time.
+New preprint on **[Verification of Sequential Convex Programming for Parametric Non-convex Optimization](https://arxiv.org/abs/2511.10622)** with [Nik Matni](https://nikolaimatni.github.io/) and [George Pappas](https://www.georgejpappas.org/). We introduce a verification framework to exactly verify the worst-case performance of sequential convex programming (SCP) algorithms for parametric non-convex optimization. Our framework provides, for the first time, global worst-case guarantees for SCP algorithms in the parametric setting.
 </div>
 
 </div>
