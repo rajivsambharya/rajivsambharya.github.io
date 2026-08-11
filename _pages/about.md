@@ -107,12 +107,27 @@ a:active {
 .talk-location {
   color: #888;
 }
+.talks-list .news-group {
+  align-items: center;
+}
+.talks-list .news-date {
+  padding-top: 0;
+}
+.talks-list .news-entry {
+  border-left: none;
+  padding-left: 0;
+}
+.talks-list .news-entry::before {
+  display: none;
+}
 </style>
 I am an Assistant Professor in the [Industrial and Systems Engineering](https://engineering.tamu.edu/industrial/index.html) Department at [Texas A&M University](https://www.tamu.edu/index.html).
 My research lies at the intersection of optimization, control, and machine learning.
 My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
 
 ## Upcoming Talks
+
+<div class="talks-list">
 
 <div class="news-group">
 <div class="news-date">Sep 2026</div>
@@ -134,6 +149,8 @@ My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
 </div>
 
 </div>
+</div>
+
 </div>
 
 ## News
