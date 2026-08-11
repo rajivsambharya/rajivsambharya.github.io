@@ -109,6 +109,7 @@ a:active {
 }
 .talks-list .news-group {
   align-items: center;
+  margin-bottom: -6px;
 }
 .talks-list .news-date {
   padding-top: 0;
