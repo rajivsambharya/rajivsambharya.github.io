@@ -135,7 +135,7 @@ My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
 <div class="news-entries" markdown="1">
 
 <div class="news-entry" markdown="1">
-**University of Delaware**
+**University of Delaware**, <span class="talk-location">Robotics Graduate Student Organization</span>
 </div>
 
 </div>
