@@ -62,17 +62,17 @@ a:active {
   padding: 10px 15px;
   margin: 15px 0;
 }
-.news-box .news-group {
+.news-group {
   display: flex;
   align-items: flex-start;
   gap: 10px;
   margin-bottom: 8px;
   font-size: 0.85em;
 }
-.news-box .news-group:last-child {
+.news-group:last-child {
   margin-bottom: 0;
 }
-.news-box .news-date {
+.news-date {
   flex: 0 0 60px;
   align-self: flex-start;
   color: #888;
@@ -80,21 +80,21 @@ a:active {
   text-align: right;
   padding-top: 2px;
 }
-.news-box .news-entries {
+.news-entries {
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 5px;
   min-width: 0;
 }
-.news-box .news-entry {
+.news-entry {
   margin: 0;
   padding: 0 0 0 14px;
   border-left: 2px solid #ddd;
   position: relative;
   line-height: 1.35;
 }
-.news-box .news-entry::before {
+.news-entry::before {
   content: "";
   position: absolute;
   left: -5px;
@@ -104,16 +104,37 @@ a:active {
   border-radius: 50%;
   background: #aaa;
 }
+.talk-location {
+  color: #888;
+}
 </style>
 I am an Assistant Professor in the [Industrial and Systems Engineering](https://engineering.tamu.edu/industrial/index.html) Department at [Texas A&M University](https://www.tamu.edu/index.html).
 My research lies at the intersection of optimization, control, and machine learning.
 My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
 
 ## Upcoming Talks
-<span style="font-size: 0.85em;">
-University of Delaware, September 2026<br>
-INFORMS Annual Meeting, San Francisco, Nov 2026
-</span>
+
+<div class="news-group">
+<div class="news-date">Sep 2026</div>
+<div class="news-entries" markdown="1">
+
+<div class="news-entry" markdown="1">
+**University of Delaware**
+</div>
+
+</div>
+</div>
+
+<div class="news-group">
+<div class="news-date">Nov 2026</div>
+<div class="news-entries" markdown="1">
+
+<div class="news-entry" markdown="1">
+**INFORMS Annual Meeting**, <span class="talk-location">San Francisco</span>
+</div>
+
+</div>
+</div>
 
 ## News
 
