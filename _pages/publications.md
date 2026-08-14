@@ -52,6 +52,20 @@ a:active {
   background-color: white;
   text-decoration: none;
 }
+
+.pub-entry {
+  margin: 1.2em 0;
+  padding: 0.7em 1.2em 0.7em 0.9em;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  width: 930px;
+  max-width: 100%;
+}
+.pub-entry p {
+  margin: 0;
+}
 </style>
 
 
@@ -62,9 +76,11 @@ a:active {
 ## Journal Articles
 
 
-**Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization**\
-Rajiv Sambharya, Bartolomeo Stellato\
-*SIAM Journal on Mathematics of Data Science*, 2026.\
+<div class="pub-entry" markdown="1">
+
+**Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization**<br>
+Rajiv Sambharya, Bartolomeo Stellato<br>
+*SIAM Journal on Mathematics of Data Science*, 2026.<br>
 <a href="https://arxiv.org/pdf/2411.15717">
 <button class="button button2">
 Download
@@ -102,10 +118,14 @@ We introduce a machine-learning framework to learn the hyperparameter sequence o
 }</pre>
 </div>
 
+</div>
 
-**Data-Driven Performance Guarantees for Classical and Learned Optimizers**\
-Rajiv Sambharya, Bartolomeo Stellato\
-*Journal of Machine Learning Research*, 2025.\
+
+<div class="pub-entry" markdown="1">
+
+**Data-Driven Performance Guarantees for Classical and Learned Optimizers**<br>
+Rajiv Sambharya, Bartolomeo Stellato<br>
+*Journal of Machine Learning Research*, 2025.<br>
 <a href="http://www.jmlr.org/papers/volume26/24-0755/24-0755.pdf">
 <button class="button button2">
 Download
@@ -148,10 +168,14 @@ We introduce a data-driven approach to analyze the performance of continuous opt
 }</pre>
 </div>
 
+</div>
 
-**Learning to Warm-Start Fixed-Point Optimization Algorithms**\
-Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
-*Journal of Machine Learning Research*, 2024.\
+
+<div class="pub-entry" markdown="1">
+
+**Learning to Warm-Start Fixed-Point Optimization Algorithms**<br>
+Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato<br>
+*Journal of Machine Learning Research*, 2024.<br>
 <a href="https://jmlr.org/papers/volume25/23-1174/23-1174.pdf">
 <button class="button button2">
 Download
@@ -193,13 +217,17 @@ We introduce a machine-learning framework to warm-start fixed-point optimization
 </pre>
 </div>
 
+</div>
+
 
 
 ## Conference Proceedings
 
-**End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization**\
-Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato\
-*Learning for Dynamics and Control, 2023*.\
+<div class="pub-entry" markdown="1">
+
+**End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization**<br>
+Rajiv Sambharya, Georgina Hall, Brandon Amos, Bartolomeo Stellato<br>
+*Learning for Dynamics and Control, 2023*.<br>
 <a href="https://proceedings.mlr.press/v211/sambharya23a/sambharya23a.pdf">
 <button class="button button2">
  Download
@@ -253,12 +281,16 @@ iterations required to obtain high-quality solutions.
 </pre>
 </div>
 
+</div>
+
 
 ## Preprints
 
-**Verification of Sequential Convex Programming for Parametric Non-convex Optimization**\
-Rajiv Sambharya, Nikolai Matni, George Pappas\
-*Arxiv Preprint, 2025*.\
+<div class="pub-entry" markdown="1">
+
+**Verification of Sequential Convex Programming for Parametric Non-convex Optimization**<br>
+Rajiv Sambharya, Nikolai Matni, George Pappas<br>
+*Arxiv Preprint, 2025*.<br>
 <a href="https://arxiv.org/pdf/2511.10622">
 <button class="button button2">
 Download
@@ -293,10 +325,14 @@ We introduce a verification framework to exactly verify the worst-case performan
 }</pre>
 </div>
 
+</div>
 
-**Learning Acceleration Algorithms for Fast Parametric Convex Optimization with Certified Robustness**\
-Rajiv Sambharya, Jinho Bok, Nikolai Matni, George Pappas\
-*Arxiv Preprint, 2025*.\
+
+<div class="pub-entry" markdown="1">
+
+**Learning Acceleration Algorithms for Fast Parametric Convex Optimization with Certified Robustness**<br>
+Rajiv Sambharya, Jinho Bok, Nikolai Matni, George Pappas<br>
+*Arxiv Preprint, 2025*.<br>
 <a href="https://arxiv.org/pdf/2507.16264">
 <button class="button button2">
 Download
@@ -335,13 +371,15 @@ We develop a machine-learning framework to learn hyperparameter sequences for ac
 }</pre>
 </div>
 
+</div>
 
 
 
+<div class="pub-entry" markdown="1">
 
-**Lifted Neural Networks**\
-Armin Askari, Geoffrey Negiar, Rajiv Sambharya, Laurent El Ghaoui\
-*Arxiv Preprint, 2018*.\
+**Lifted Neural Networks**<br>
+Armin Askari, Geoffrey Negiar, Rajiv Sambharya, Laurent El Ghaoui<br>
+*Arxiv Preprint, 2018*.<br>
 <a href="https://arxiv.org/pdf/1805.01532.pdf">
 <button class="button button2">
 Download
@@ -377,12 +415,16 @@ We describe a novel family of models of multi- layer feedforward neural networks
 }</pre>
 </div>
 
+</div>
+
 
 ## Thesis
 
-**Learning to Accelerate Optimization Algorithms with Guarantees**\
-Rajiv Sambharya\
-*Princeton University, 2024*.\
+<div class="pub-entry" markdown="1">
+
+**Learning to Accelerate Optimization Algorithms with Guarantees**<br>
+Rajiv Sambharya<br>
+*Princeton University, 2024*.<br>
 <a href="https://dataspace.princeton.edu/handle/88435/dsp01zp38wh03k">
 <button class="button button2">
 Download
@@ -414,4 +456,6 @@ Bibtex
   type={phdthesis},
   year={2024}
 }</pre>
+</div>
+
 </div>
