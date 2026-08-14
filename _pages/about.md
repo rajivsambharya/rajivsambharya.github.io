@@ -123,7 +123,7 @@ a:active {
 }
 </style>
 I am an Assistant Professor in the [Industrial and Systems Engineering](https://engineering.tamu.edu/industrial/index.html) Department at [Texas A&M University](https://www.tamu.edu/index.html).
-My research lies at the intersection of optimization, control, and machine learning.
+My [research](/research/) lies at the intersection of optimization, control, and machine learning.
 I focus on developing data-driven tools to enable fast and reliable optimization.
 My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
 

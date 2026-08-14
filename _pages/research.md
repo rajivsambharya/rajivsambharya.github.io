@@ -139,3 +139,7 @@ I am currently organizing my work around three connected directions.
 </div>
 
 </div>
+
+
+### Tools I rely on
+Throughout my research, I rely on a wide variety of tools: first-order methods, convex optimization, bilevel optimization, deep learning, statistical learning theory, online learning, and model predictive control to name a few.
