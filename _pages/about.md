@@ -94,6 +94,9 @@ a:active {
   position: relative;
   line-height: 1.35;
 }
+.news-entry p {
+  margin: 0;
+}
 .news-entry::before {
   content: "";
   position: absolute;
@@ -109,7 +112,7 @@ a:active {
 }
 .talks-list .news-group {
   align-items: center;
-  margin-bottom: -6px;
+  margin-bottom: 8px;
 }
 .talks-list .news-date {
   padding-top: 0;
@@ -137,6 +140,10 @@ My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
 
 <div class="news-entry" markdown="1">
 **University of Delaware**, <span class="talk-location">Robotics Graduate Student Organization</span>
+</div>
+
+<div class="news-entry" markdown="1">
+**Texas A&M University**, <span class="talk-location">Department of Engineering Technology and Industrial Distribution</span>
 </div>
 
 </div>
