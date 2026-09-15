@@ -142,10 +142,6 @@ My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
 **University of Delaware**, <span class="talk-location">Robotics Graduate Student Organization</span>
 </div>
 
-<div class="news-entry" markdown="1">
-**Texas A&M University**, <span class="talk-location">Department of Engineering Technology and Industrial Distribution</span>
-</div>
-
 </div>
 </div>
 
@@ -165,6 +161,21 @@ My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
 ## News
 
 <div class="news-box">
+
+<div class="news-group">
+<div class="news-date">Sep 2026</div>
+<div class="news-entries" markdown="1">
+
+<div class="news-entry" markdown="1">
+New preprint on **[Verifying Performance, Stability, and Feasibility of Inexact Non-linear Model Predictive Controllers](https://arxiv.org/abs/2609.14920)** with [Sribalaji C. Anand](https://sites.google.com/view/sribalajianand/home) and [George Pappas](https://www.georgejpappas.org/). We develop an optimization framework that numerically certifies the worst-case suboptimality, closed-loop stability, and feasibility of inexact controllers for non-linear model predictive control.
+</div>
+
+<div class="news-entry" markdown="1">
+I gave a talk at the Engineering Technology and Industrial Distribution Department Seminar at Texas A&M University on **[Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization]({{rajivsambharya.github.io}}/slides/tamu_etid_2026.pdf)**. Thank you [Jorge Alvarado](https://engineering.tamu.edu/etid/profiles/jalvarado.html) and [Albert Patterson](https://engineering.tamu.edu/etid/profiles/patterson-albert.html) for the invitation!
+</div>
+
+</div>
+</div>
 
 <div class="news-group">
 <div class="news-date">Aug 2026</div>
@@ -197,7 +208,7 @@ Our paper **[Learning Algorithm Hyperparameters for Fast Parametric Convex Optim
 <div class="news-entries" markdown="1">
 
 <div class="news-entry" markdown="1">
-I gave a talk at the [SIAM Conference on Optimization](https://www.siam.org/conferences-events/siam-conferences/op26/) in Edinburgh on **[Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization with Certified Robustness]({{rajivsambharya.github.io}}/slides/siopt_2026.pdf)**. Thank you [Bartolomeo Stellato](https://stellato.io) for the invitation!
+I gave a talk at the [SIAM Conference on Optimization](https://www.siam.org/conferences-events/siam-conferences/op26/) in Edinburgh on **[Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization]({{rajivsambharya.github.io}}/slides/siopt_2026.pdf)**. Thank you [Bartolomeo Stellato](https://stellato.io) for the invitation!
 </div>
 
 </div>

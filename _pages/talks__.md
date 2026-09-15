@@ -42,7 +42,13 @@ INFORMS Optimization Society Conference\
 </a>\
 March 2026
 
-## Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization with Certified Robustness
+## Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization
+Texas A&M University: Engineering Technology and Industrial Distribution (ETID) Seminar\
+<a href="{{rajivsambharya.github.io}}/slides/tamu_etid_2026.pdf" download>
+  Slides
+</a>\
+September 2026
+
 SIAM Conference on Optimization\
 <a href="{{rajivsambharya.github.io}}/slides/siopt_2026.pdf" download>
   Slides

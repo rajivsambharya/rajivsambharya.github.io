@@ -288,6 +288,48 @@ iterations required to obtain high-quality solutions.
 
 <div class="pub-entry" markdown="1">
 
+**Verifying Performance, Stability, and Feasibility of Inexact Non-linear Model Predictive Controllers**<br>
+Rajiv Sambharya, Sribalaji C. Anand, George Pappas<br>
+*Arxiv Preprint, 2026*.<br>
+<a href="https://arxiv.org/pdf/2609.14920">
+<button class="button button2">
+Download
+</button>
+</a>
+<a href='javascript:;'
+onclick='$("#abs_verify_nonlinear_mpc").toggle()'>
+<button class="button button4">
+Abstract
+</button>
+</a>
+<a href='javascript:;'
+onclick='$("#bib_verify_nonlinear_mpc").toggle()'>
+<button class="button button5">
+Bibtex
+</button>
+</a>
+<a href="https://github.com/rajivsambharya/verify_nonlinear_mpc">
+<button class="button button3">
+Code
+</button>
+</a>
+<div id="abs_verify_nonlinear_mpc" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
+We introduce a verification framework to exactly verify the worst-case performance of several inexact controllers for constrained non-linear model predictive control (MPC). Rather than redesigning controllers to provide guarantees by construction, we analyze existing controllers as they are, considering two variants: one that extracts control inputs from KKT-satisfying primal-dual points of the non-convex MPC problem, and another that obtains inputs through dynamic linearization followed by a convex quadratic program. Our framework formulates verification as an optimization problem that identifies the worst-case initial state within a given set and control inputs consistent with the inexact controller, maximizing a carefully chosen performance metric. This allows us to certify single-problem suboptimality gaps, closed-loop performance over multiple iterations, stability guarantees, and feasibility of the resulting system. Numerical examples demonstrate the ability of our framework to quantify different types of suboptimality and to certify the stability and feasibility of the controllers.
+</div>
+<div id="bib_verify_nonlinear_mpc" style="text-align: justify; display: none; color: white; background-color: #EB984E" markdown="1">
+<pre>@article{sambharya2026verifynonlinearmpc,
+  title={Verifying Performance, Stability, and Feasibility of Inexact Non-linear Model Predictive Controllers},
+  author={Sambharya, Rajiv and Anand, Sribalaji C. and Pappas, George},
+  journal={arXiv preprint arXiv:2609.14920},
+  year={2026}
+}</pre>
+</div>
+
+</div>
+
+
+<div class="pub-entry" markdown="1">
+
 **Verification of Sequential Convex Programming for Parametric Non-convex Optimization**<br>
 Rajiv Sambharya, Nikolai Matni, George Pappas<br>
 *Arxiv Preprint, 2025*.<br>
