@@ -124,6 +124,12 @@ a:active {
 .talks-list .news-entry::before {
   display: none;
 }
+.last-updated {
+  text-align: right;
+  color: #888;
+  font-size: 0.8em;
+  margin-top: 2em;
+}
 </style>
 I am an Assistant Professor in the [Industrial and Systems Engineering](https://engineering.tamu.edu/industrial/index.html) Department at [Texas A&M University](https://www.tamu.edu/index.html).
 My [research](/research/) lies at the intersection of optimization, control, and machine learning.
@@ -237,6 +243,8 @@ New preprint on **[Verification of Sequential Convex Programming for Parametric 
 </div>
 
 </div>
+
+<div class="last-updated">Last updated: {{ site.time | date: "%m-%d-%Y" }}</div>
 
 <!-- <span style="color:purple">I will be joining the Texas A&M Industrial and Systems Engineering department as an Assistant Professor in Fall 2026.</span> -->
 
