@@ -26,10 +26,9 @@ a:active {
   background-color: white;
   text-decoration: none;
 }
-a
 </style>
 
-I am recruiting students to begin either **Spring 2027** or **Fall 2027**. Check out my [research](/research/) to see if you are interested.
+I am recruiting PhD students to begin either **Spring 2027** or **Fall 2027**. Check out my [research](/research/) to see if you are interested.
 
 ## Requirements
 
@@ -40,4 +39,4 @@ I am recruiting students to begin either **Spring 2027** or **Fall 2027**. Check
 
 ## How to Express Interest
 
-If you are interested in joining the group, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfjQjRfWZzKtS_mdETsQ7GRCLb1dqN83oMZKB0gz3V5kXLk7w/viewform?usp=dialog).
+If you are interested in joining the Group, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfjQjRfWZzKtS_mdETsQ7GRCLb1dqN83oMZKB0gz3V5kXLk7w/viewform?usp=dialog).

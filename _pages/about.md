@@ -136,6 +136,10 @@ My [research](/research/) lies at the intersection of optimization, control, and
 I focus on developing data-driven tools to enable fast and reliable optimization.
 My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
 
+## Now Recruiting
+
+I am recruiting PhD students to join in Spring/Fall 2027: see [Joining the Group](/joining-the-group/) for details.
+
 ## Upcoming Talks
 
 <div class="talks-list">
