@@ -138,7 +138,7 @@ My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
 
 ## Now Recruiting
 
-I am recruiting PhD students to join in Spring/Fall 2027: see [Joining the Group](/joining-the-group/) for details and to fill out a form to express interest.
+I am recruiting PhD students to join in Spring/Fall 2027: see [Joining the Group](/joining-the-group/) for details.
 
 ## Upcoming Talks
 
