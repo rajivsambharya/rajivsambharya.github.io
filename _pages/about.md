@@ -145,17 +145,6 @@ I am recruiting PhD students to join in Spring/Fall 2027: see [Joining the Group
 <div class="talks-list">
 
 <div class="news-group">
-<div class="news-date">Sep 2026</div>
-<div class="news-entries" markdown="1">
-
-<div class="news-entry" markdown="1">
-**University of Delaware**, <span class="talk-location">Robotics Graduate Student Organization</span>
-</div>
-
-</div>
-</div>
-
-<div class="news-group">
 <div class="news-date">Nov 2026</div>
 <div class="news-entries" markdown="1">
 
@@ -182,6 +171,10 @@ New preprint on **[Verifying Performance, Stability, and Feasibility of Inexact 
 
 <div class="news-entry" markdown="1">
 I gave a talk at the Engineering Technology and Industrial Distribution Department Seminar at Texas A&M University on **[Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization]({{rajivsambharya.github.io}}/slides/tamu_etid_2026.pdf)**. Thank you [Jorge Alvarado](https://engineering.tamu.edu/etid/profiles/jalvarado.html) and [Albert Patterson](https://engineering.tamu.edu/etid/profiles/patterson-albert.html) for the invitation!
+</div>
+
+<div class="news-entry" markdown="1">
+I gave a talk at the **University of Delaware**'s Robotics Graduate Student Organization seminar on **[Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization]({{rajivsambharya.github.io}}/slides/delaware_2026.pdf)**. Thank you Weston Brousseau for the invitation!
 </div>
 
 </div>

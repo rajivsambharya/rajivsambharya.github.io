@@ -43,6 +43,12 @@ INFORMS Optimization Society Conference\
 March 2026
 
 ## Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization
+University of Delaware: Robotics Graduate Student Organization Seminar\
+<a href="{{rajivsambharya.github.io}}/slides/delaware_2026.pdf" download>
+  Slides
+</a>\
+September 2026
+
 Texas A&M University: Engineering Technology and Industrial Distribution (ETID) Seminar\
 <a href="{{rajivsambharya.github.io}}/slides/tamu_etid_2026.pdf" download>
   Slides
