@@ -162,6 +162,17 @@ I am recruiting PhD students to join in Spring/Fall 2027: see [Joining the Group
 <div class="news-box">
 
 <div class="news-group">
+<div class="news-date">Oct 2026</div>
+<div class="news-entries" markdown="1">
+
+<div class="news-entry" markdown="1">
+Happy to receive an honorable mention for the **[INFORMS Computing Society Prize 2026](https://connect.informs.org/computing/awards/ics-prize/ics-prize-2022-2026)** with [Georgina Hall](https://sites.google.com/view/georgina-hall), [Brandon Amos](https://bamos.github.io), and [Bartolomeo Stellato](https://stellato.io) for our line of work on accelerating algorithms for parametric convex optimization!
+</div>
+
+</div>
+</div>
+
+<div class="news-group">
 <div class="news-date">Sep 2026</div>
 <div class="news-entries" markdown="1">
 
