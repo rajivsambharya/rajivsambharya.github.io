@@ -66,6 +66,27 @@ a:active {
 .pub-entry p {
   margin: 0;
 }
+
+.award-badge-wrap {
+  margin: 4px 2px;
+}
+a.award-badge, a.award-badge:link, a.award-badge:visited, a.award-badge:hover, a.award-badge:active {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #444;
+  background-color: #fdf0e4;
+  border: 1px solid #e67e22;
+  border-radius: 5px;
+  text-decoration: none;
+}
+a.award-badge:hover {
+  background-color: #fae0c8;
+}
+a.award-badge i {
+  color: #555;
+}
 </style>
 
 
@@ -103,6 +124,9 @@ Bibtex
 Code
 </button>
 </a>
+<div class="award-badge-wrap">
+<a class="award-badge" href="https://connect.informs.org/computing/awards/ics-prize/ics-prize-2022-2026"><i class="fas fa-trophy" aria-hidden="true"></i> INFORMS Computing Society Prize, Honorable Mention</a>
+</div>
 
 
 <div id="abs_lah" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
@@ -148,6 +172,9 @@ Bibtex
 Code
 </button>
 </a>
+<div class="award-badge-wrap">
+<a class="award-badge" href="https://connect.informs.org/computing/awards/ics-prize/ics-prize-2022-2026"><i class="fas fa-trophy" aria-hidden="true"></i> INFORMS Computing Society Prize, Honorable Mention</a>
+</div>
 
 
 <div id="abs_data_driven_guarantees" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
@@ -198,6 +225,9 @@ Bibtex
 Code
 </button>
 </a>
+<div class="award-badge-wrap">
+<a class="award-badge" href="https://connect.informs.org/computing/awards/ics-prize/ics-prize-2022-2026"><i class="fas fa-trophy" aria-hidden="true"></i> INFORMS Computing Society Prize, Honorable Mention</a>
+</div>
 
 <div id="abs_l2ws_fp" style="text-align: justify; display: none; color: white; background-color: #7B241C" markdown="1">
 We introduce a machine-learning framework to warm-start fixed-point optimization algorithms. Our architecture consists of a neural network mapping problem parameters to warm starts, followed by a predefined number of fixed-point iterations. We propose two loss functions designed to either minimize the fixed-point residual or the distance to a ground truth solution. In this way, the neural network predicts warm starts with the end-to-end goal of minimizing the downstream loss. An important feature of our architecture is its flexibility, in that it can predict a warm start for fixed-point algorithms run for any number of steps, without being limited to the number of steps it has been trained on. We provide PAC-Bayes generalization bounds on unseen data for common classes of fixed-point operators: contractive, linearly convergent, and averaged. Applying this framework to well-known applications in control, statistics, and signal processing, we observe a significant reduction in the number of iterations and solution time required to solve these problems, through learned warm starts.
