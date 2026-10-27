@@ -155,6 +155,17 @@ I am recruiting PhD students to join in Spring/Fall 2027: see [Joining the Group
 </div>
 </div>
 
+<div class="news-group">
+<div class="news-date">Jul 2027</div>
+<div class="news-entries" markdown="1">
+
+<div class="news-entry" markdown="1">
+**International Symposium on Mathematical Programming (ISMP)**, <span class="talk-location">Amsterdam, NL</span>
+</div>
+
+</div>
+</div>
+
 </div>
 
 ## News
