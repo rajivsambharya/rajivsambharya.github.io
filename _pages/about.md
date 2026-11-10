@@ -138,22 +138,11 @@ My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.
 
 ## Now Recruiting
 
-I am recruiting PhD students to join in Spring/Fall 2027: see [Joining the Group](/joining-the-group/) for details.
+I am recruiting PhD students to join in Fall 2027: see [Joining the Group](/group/#joining-the-group) for details.
 
 ## Upcoming Talks
 
 <div class="talks-list">
-
-<div class="news-group">
-<div class="news-date">Nov 2026</div>
-<div class="news-entries" markdown="1">
-
-<div class="news-entry" markdown="1">
-**INFORMS Annual Meeting**, <span class="talk-location">San Francisco</span>
-</div>
-
-</div>
-</div>
 
 <div class="news-group">
 <div class="news-date">Jul 2027</div>
@@ -171,6 +160,17 @@ I am recruiting PhD students to join in Spring/Fall 2027: see [Joining the Group
 ## News
 
 <div class="news-box">
+
+<div class="news-group">
+<div class="news-date">Nov 2026</div>
+<div class="news-entries" markdown="1">
+
+<div class="news-entry" markdown="1">
+I gave a talk at the **INFORMS Annual Meeting** in San Francisco on **[Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization]({{rajivsambharya.github.io}}/slides/informs_2026.pdf)**.
+</div>
+
+</div>
+</div>
 
 <div class="news-group">
 <div class="news-date">Oct 2026</div>

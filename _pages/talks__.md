@@ -43,6 +43,12 @@ INFORMS Optimization Society Conference\
 March 2026
 
 ## Learning Algorithm Hyperparameters for Fast Parametric Convex Optimization
+INFORMS Annual Meeting in San Francisco\
+<a href="{{rajivsambharya.github.io}}/slides/informs_2026.pdf" download>
+  Slides
+</a>\
+November 2026
+
 University of Delaware: Robotics Graduate Student Organization Seminar\
 <a href="{{rajivsambharya.github.io}}/slides/delaware_2026.pdf" download>
   Slides

@@ -55,6 +55,12 @@ a:active {
   font-weight: 600;
   color: #333;
 }
+.course-card .course-topics {
+  margin-top: 0.4em;
+  color: #555;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
 .course-card .course-terms {
   flex-shrink: 0;
   text-align: right;
@@ -83,7 +89,18 @@ I received the [Princeton Teaching Award](https://www.princeton.edu/news/2022/05
 ## Instructor at Texas A&M University
 
 <div class="course-card">
-  <div class="course-name">DAEN 429: Data Analytics II</div>
+  <div>
+    <div class="course-name">DAEN/ISEN 489: Computational Optimization</div>
+    <div class="course-topics"><strong>Topics:</strong> linear algebra and multivariable calculus review, optimization, convex optimization, solving linear systems, equality-constrained least squares, linear programming, duality, Newton's method, interior-point methods, robust optimization, semidefinite programming, and integer programming.</div>
+  </div>
+  <div class="course-terms"><div>Spring 2027 Instructor</div></div>
+</div>
+
+<div class="course-card">
+  <div>
+    <div class="course-name">DAEN 429: Data Analytics II</div>
+    <div class="course-topics"><strong>Topics:</strong> linear algebra and multivariable calculus review, optimization, convex optimization, gradient descent, linear regression, linear classifiers, neural networks, generalization for neural networks, deep learning algorithms, convolutional neural networks, recurrent neural networks, attention and transformers, Natural Language Processing, PCA, and autoencoders, and variational autoencoders.</div>
+  </div>
   <div class="course-terms"><div>Fall 2026 Instructor</div></div>
 </div>
 

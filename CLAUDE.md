@@ -10,6 +10,8 @@ Run this from the repo root. It serves at http://localhost:4000 and live-reloads
 LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 PATH=/opt/homebrew/opt/ruby@3.2/bin:$PATH bundle exec jekyll serve --config _config.yml,_config.dev.yml
 ```
 
+First check whether a server is already running with `lsof -nP -iTCP:4000 -sTCP:LISTEN`. If one is, reuse it: it auto-regenerates when files change, and a second `jekyll serve` fails with `Address already in use`.
+
 The first build takes about 10–20 seconds. Run the command in the background and poll `curl -s -o /dev/null -w "%{http_code}" http://localhost:4000/` until it returns 200.
 
 Why each part matters:

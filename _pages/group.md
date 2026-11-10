@@ -1,7 +1,9 @@
 ---
 layout: archive
-title: "Joining the Group"
-permalink: /joining-the-group/
+title: "Group"
+permalink: /group/
+redirect_from:
+  - /joining-the-group/
 author_profile: true
 ---
 
@@ -49,17 +51,17 @@ a:active {
   background-color: #fff;
 }
 
-.recruit-card h2 {
+.recruit-card h3 {
   margin-top: 0;
-  font-size: 1.25em;
-  color: #008CBA;
-  border-bottom: 2px solid #008CBA;
-  padding-bottom: 8px;
-  margin-bottom: 16px;
+  font-size: 1.05em;
+  color: #333;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
 }
 
-.recruit-card h3 {
-  font-size: 1em;
+.recruit-card h4 {
+  font-size: 0.95em;
   margin-bottom: 6px;
   color: #333;
 }
@@ -83,7 +85,64 @@ a:active {
   font-size: 0.9em;
   color: #005f80;
 }
+.group-section h2 {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 6px;
+}
+.member-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 24px 0 32px;
+}
+.member-card {
+  width: 220px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+.member-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top;
+}
+.member-card .member-info {
+  padding: 12px 14px 14px;
+  line-height: 1.4;
+  color: #444;
+}
+.member-card .member-name {
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-bottom: 4px;
+}
 </style>
+
+<div class="group-section" markdown="1">
+
+## Undergraduate Students
+
+<div class="member-cards">
+<div class="member-card">
+  <img src="/group_headshots/AnnaliseAlexanderHeadshot.jpg" alt="Annalise Alexander">
+  <div class="member-info">
+    <div class="member-name">Annalise Alexander</div>
+    <div>Texas A&amp;M</div>
+    <div><em>DAEN</em></div>
+  </div>
+</div>
+</div>
+
+</div>
+
+<div class="group-section" markdown="1">
+
+## Joining the Group
+
+</div>
 
 <p class="recruit-intro">Check out my <a href="/research/">research</a> to see if it's a good fit before reaching out. My email is rajivsambharya<span style="display:none">foo</span>@tamu.edu.</p>
 
@@ -91,18 +150,18 @@ a:active {
 
 <div class="recruit-card" markdown="1">
 
-## PhD Students
+### PhD Students
 
-I am recruiting PhD students to begin either **Spring 2027** or **Fall 2027**.
+I am recruiting PhD students to begin in **Fall 2027**.
 
-### Requirements
+#### Requirements
 - An undergraduate degree in math, computer science, electrical engineering, industrial engineering, operations research, or a related field
 - Coding experience in at least one language (we will use Python)
 - A strong background in math / optimization is preferred
 - Most importantly: curiousity, honesty, and a commitment to math / science!
 
-### Expressing interest
-Send me an email with the subject line <span class="subject-line">Prospective PhD Student Spring/Fall 2027</span> (whichever you're targeting) and include:
+#### Expressing interest
+Send me an email with the subject line <span class="subject-line">Prospective PhD Student Fall 2027</span> and include:
 - CV
 - Transcripts (and GRE scores if you have them)
 - A note about why you are interested!
@@ -111,7 +170,7 @@ Send me an email with the subject line <span class="subject-line">Prospective Ph
 
 <div class="recruit-card" markdown="1">
 
-## Masters / Undergraduate Students
+### Masters / Undergraduate Students
 
 If you are a Masters or undergraduate student interested in doing research with me, please send me an email with the subject line <span class="subject-line">Masters Student with Research Interest</span> or <span class="subject-line">Undergraduate Student with Research Interest</span> (whichever applies) and attach your **CV**.
 
