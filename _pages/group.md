@@ -96,7 +96,7 @@ a:active {
   margin: 24px 0 32px;
 }
 .member-card {
-  width: 220px;
+  width: 170px;
   border-radius: 8px;
   overflow: hidden;
   background-color: #fff;
@@ -110,13 +110,14 @@ a:active {
   object-position: top;
 }
 .member-card .member-info {
-  padding: 12px 14px 14px;
+  padding: 10px 10px 12px;
   line-height: 1.4;
+  font-size: 0.9em;
   color: #444;
 }
 .member-card .member-name {
   font-weight: 700;
-  font-size: 1.1em;
+  font-size: 0.95em;
   margin-bottom: 4px;
 }
 </style>
